@@ -256,8 +256,8 @@ ul.book-right li {
 	
 	div.seatCharts-cell {
 	color: #182C4E;
-    height: 2px;
-    width: 2px;
+    height: 10px;
+    width: 10px;
     line-height: 27px;
     margin: 3px;
     float: left;
