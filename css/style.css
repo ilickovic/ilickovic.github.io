@@ -252,7 +252,7 @@ ul.book-right li {
 
 /*-- responsive media queries --*/
 
-@media (max-width: 2000px){
+@media (max-width: 3000px){
 	
 	div.seatCharts-cell {
 	color: #182C4E;
