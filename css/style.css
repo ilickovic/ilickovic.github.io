@@ -70,6 +70,7 @@ label{
     width: 80%;
     margin: 45px auto;
     background:rgba(255, 255, 255, 0.88);
+	opacity: 50%;
     padding: 30px 30px;
 }
 .main h2 {
@@ -95,7 +96,8 @@ p.copy_rights a:hover{
 /*-- movie ticket --*/
 .front{
     margin: 5px 4px 45px 38px;
-    background-color: #D88A04;
+    /*background-color: #D88A04;*/
+	background-color: #f2c715;
     color: #fff;
     text-align: center;
     padding: 9px 0;
@@ -112,7 +114,7 @@ p.copy_rights a:hover{
 .booking-details p {
     line-height: 1.5em;
     font-size: 18px;
-    color: #D88A04;
+    color: #f2c715;
 	font-weight:600;
 }
 .booking-details p span{
@@ -181,7 +183,7 @@ span.seatCharts-legendDescription {
     border:none;
     font-size: 16px;
     cursor: pointer;
-    background: #D88A04;
+    background: #f2c715;
     padding: 7px 11px;
     color: #fff;
 	outline:none;
@@ -238,7 +240,7 @@ ul.book-right {
 ul.book-left li {
     font-size: 16px;
     font-weight: 600;
-    color: #D88A04;
+    color: #f2c715;
     line-height: 1.9em;
 }
 ul.book-right li {
