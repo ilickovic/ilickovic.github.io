@@ -38,7 +38,7 @@ body{
     -o-background-size: cover;
     -ms-background-size: cover;
     -moz-background-size: cover;*/
-	size: 2700px;
+	height: 2700px;
 	background-size: 100% 100%; 
 	font-family: 'Open Sans', sans-serif !important;
 }
