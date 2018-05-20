@@ -1035,8 +1035,7 @@ h4.h-text a:hover{
 		margin-bottom:0px;
 	}
 	.banner-no {
-		float:none;
-		display: none;
+		
 	}
 	.nav-wrap {
 		width:100%;
@@ -1072,8 +1071,7 @@ h4.h-text a:hover{
 		margin-bottom:0px;
 	}
 	.banner-no {
-		float:none;
-		display: none;
+		
 	}
 	.nav-wrap {
 		width:100%;
@@ -1103,10 +1101,7 @@ h4.h-text a:hover{
 		float: left;
 		margin-right: 1em;
 	}
-	.logoslika{
-		width: 50px;
-		height: 50px;
-	}
+
 }
 @media only screen and (max-width: 1024px) {
 	.content-top h3 {
