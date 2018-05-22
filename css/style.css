@@ -959,30 +959,60 @@ h4.h-text a:hover{
 	.wrap{
 		width:90%;
 	}
-	.logoslika{
-		width: 50px;
-		height: 50px;
-	}
 }
-@media only screen and (max-width:1024px) and (min-width:800px) {
+@media only screen and (max-width:1024px) and (min-width:50px) {
 	.wrap{
 		width:90%;
 	}
 	p.txt_4 {
 		font-size:1.5em;
 	}
+	.header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		margin-top: -160px;
+		
+	}
+	
+	#example-one li { 
+	display: inline-block;	
+	margin-right: 15px;
+}
+	#example-one a {
+		font-size: 12px;
+		padding: 0;	
 }
 @media only screen and (max-width:800px) and (min-width:640px) {
-	.wrap{
-		width:90%;
+	
+		.nav-wrap
+	{
+		margin-top: -110px;
+		
 	}
-	p.txt_4 {
-		font-size:1.5em;
-	}
+	
+	#example-one li { 
+	display: inline-block;	
+	margin-right: 12px;
+}
+
+	#example-one a {
+		font-size: 11px;
+		padding: 0;	
+}
+
+.logoslika{
+	width: 150px;
+	height: 150px;
+}
 }
 @media only screen and (max-width:640px) and (min-width:480px) {
 	.wrap{
 		width:90%;
+	}
+	.header-top {
+		height: 25%;
 	}
 	p.txt_4 {
 		font-size:1.5em;
@@ -1005,10 +1035,33 @@ h4.h-text a:hover{
 	.link2 {
 		margin-bottom:0px;
 	}
+	#example-one li { 
+	display: inline-block;	
+	padding:0;
+}
+
+	#example-one a {
+		font-size: 9px;
+		padding: 0;
+		margin:-10px;		
+}
+	.logoslika{
+	width: 120px;
+	height: 120px;
+	}
+		.nav-wrap
+	{
+		margin-top: -100px;
+		margin-right: -10px
+		
+	}
 }
 @media only screen and (max-width:480px) and (min-width:320px) {
 	.wrap{
 		width:90%;
+	}
+	.header-top {
+		height: 30%;
 	}
 	p.txt_4 {
 		font-size:1.5em;
@@ -1035,7 +1088,8 @@ h4.h-text a:hover{
 		margin-bottom:0px;
 	}
 	.banner-no {
-		
+		float:none;
+		display: none;
 	}
 	.nav-wrap {
 		width:100%;
@@ -1046,12 +1100,19 @@ h4.h-text a:hover{
 	.wrap{
 		width:90%;
 	}
+	.header-top {
+		height: 30%;
+	}
 	p.txt_4 {
 		font-size:1.5em;
 	}
 	#example-one a {
 		padding:0px;
 	}
+	#example-one li { 
+	display: inline-block;	
+	margin-right: 10px;
+}
 	.h-logo {
 		width:100%;
 		float:none;
@@ -1071,7 +1132,8 @@ h4.h-text a:hover{
 		margin-bottom:0px;
 	}
 	.banner-no {
-		
+		float:none;
+		display: none;
 	}
 	.nav-wrap {
 		width:100%;
@@ -1101,7 +1163,6 @@ h4.h-text a:hover{
 		float: left;
 		margin-right: 1em;
 	}
-
 }
 @media only screen and (max-width: 1024px) {
 	.content-top h3 {
