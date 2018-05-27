@@ -7,7 +7,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Free Theater Website Template | Movies & Events :: w3layouts</title>
+<title  >Представе</title>
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Marck+Script|Poiret+One|Underdog" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="all" />
@@ -50,9 +53,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		    </div>
 			  <div class="nav-wrap">
 					<ul class="group" id="example-one">
-			           <li class="current_page_item"><a href="index.html">Почетна</a></li>
+			           <li class="current_page_item"><a href="index.tpl">Почетна</a></li>
 			           <li><a href="about.html">Репертоар</a></li>
-			  		   <li><a href="PosebnaPredstava\single.html">О позоришту</a></li>
+			  		   <li><a href="movie_events.html">О позоришту</a></li>
 					   <li><a href="movies_events.html">Представе</a></li>
 			  		   <li><a href="movies_events.html">О глумцима</a></li>
 			        </ul>
@@ -86,105 +89,76 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    </div>
 </div>
 </div>
-<div class="content">
+<div class="content3">
 	<div class="wrap">
 		<div class="content-top">
-			<h3>Представе</h3>
-				<div class="col_1_of_4 span_1_of_4">
-					<div class="imageRow">
-						  	<div class="single">
-						  		<a href="images/pic18.jpg" rel="lightbox"><img src="images/pic18.jpg" alt="" /></a>
-						  	</div>
+			<h3 style="text-align:center;">Представе</h3>
+                        [[foreach $predstave->lista as $predstava]]
+				<div style="height:28%;" class="col_1_of_4 span_1_of_4">
+					
+						  	<!-- <div class="single"> -->
+                                                        <a href="[[$predstava->slika]]"  rel="lightbox"><img class="slikaPredstave" src="[[$predstava->slika]]" alt="" /></a>
+						  	<!-- </div> -->
 						  	<div class="movie-text">
-						  		<h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4>
-						  		<p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
-						  		
+						  		<h4 class="h-text"><a href="#">Opširnije..</a></h4>
+						  		<!-- <p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p> -->
 						  	</div>
-		  				</div>
+		  			
 		  		</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<div class="imageRow">
-						  	<div class="single">
-						  		<a href="images/pic19.jpg" rel="lightbox"><img src="images/pic19.jpg" alt="" /></a>
-						  	</div>
-						  	<div class="movie-text">
-						  		<h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4>
-						  		<p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
-						  	</div>
-		  				</div>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<div class="imageRow">
-						  	<div class="single">
-						  		<a href="images/pic20.jpg" rel="lightbox"><img src="images/pic20.jpg" alt="" /></a>
-						  	</div>
-						  	<div class="movie-text">
-						  		<h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4>
-						  		<p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
-						  	</div>
-		  				</div>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<div class="imageRow">
-						  	<div class="single">
-						  		<a href="images/pic21.jpg" rel="lightbox"><img src="images/pic21.jpg" alt="" /></a>
-						  	</div>
-						  	<div class="movie-text">
-						  		<h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4>
-						  		<p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
-						  	</div>
-		  				</div>
-				</div>
+                        [[/foreach]]
+				
+		  			
+				
 					<div class="clear"></div>	
 			</div>
-			<div class="movie-top">
-				<div class="col_1_of_4 span_1_of_4">
-					<div class="imageRow">
-						  	<div class="single">
-						  		<a href="images/pic22.jpg" rel="lightbox"><img src="images/pic22.jpg" alt="" /></a>
-						  	</div>
-						  	<div class="movie-text">
-						  		<h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4>
-						  		<p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
+			<!-- <div class="movie-top"> -->
+				<!-- <div class="col_1_of_4 span_1_of_4"> -->
+					<!-- <div class="imageRow"> -->
+						  	<!-- <div class="single"> -->
+						  		<!-- <a href="images/pic22.jpg" rel="lightbox"><img src="images/pic22.jpg" alt="" /></a> -->
+						  	<!-- </div> -->
+						  	<!-- <!-- <div class="movie-text"> --> -->
+						  		<!-- <!-- <h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4> --> -->
+						  		<!-- <!-- <p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p> --> -->
 						  		
-						  	</div>
-		  				</div>
-		  		</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<div class="imageRow">
-						  	<div class="single">
-						  		<a href="images/pic23.jpg" rel="lightbox"><img src="images/pic23.jpg" alt="" /></a>
-						  	</div>
-						  	<div class="movie-text">
-						  		<h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4>
-						  		<p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
-						  	</div>
-		  				</div>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<div class="imageRow">
-						  	<div class="single">
-						  		<a href="images/pic24.jpg" rel="lightbox"><img src="images/pic24.jpg" alt="" /></a>
-						  	</div>
-						  	<div class="movie-text">
-						  		<h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4>
-						  		<p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
-						  	</div>
-		  				</div>
-				</div>
-				<div class="col_1_of_4 span_1_of_4">
-					<div class="imageRow">
-						  	<div class="single">
-						  		<a href="images/pic25.jpg" rel="lightbox"><img src="images/pic25.jpg" alt="" /></a>
-						  	</div>
-						  	<div class="movie-text">
-						  		<h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4>
-						  		<p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
-						  	</div>
-		  				</div>
-				</div>
-					<div class="clear"></div>	
-			</div>
+						  	<!-- <!-- </div> --> -->
+		  				<!-- </div> -->
+		  		<!-- </div> -->
+				<!-- <div class="col_1_of_4 span_1_of_4"> -->
+					<!-- <div class="imageRow"> -->
+						  	<!-- <div class="single"> -->
+						  		<!-- <a href="images/pic23.jpg" rel="lightbox"><img src="images/pic23.jpg" alt="" /></a> -->
+						  	<!-- </div> -->
+						  	<!-- <div class="movie-text"> -->
+						  		<!-- <h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4> -->
+						  		<!-- <p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p> -->
+						  	<!-- </div> -->
+		  				<!-- </div> -->
+				<!-- </div> -->
+				<!-- <div class="col_1_of_4 span_1_of_4"> -->
+					<!-- <div class="imageRow"> -->
+						  	<!-- <div class="single"> -->
+						  		<!-- <a href="images/pic24.jpg" rel="lightbox"><img src="images/pic24.jpg" alt="" /></a> -->
+						  	<!-- </div> -->
+						  	<!-- <div class="movie-text"> -->
+						  		<!-- <h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4> -->
+						  		<!-- <p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p> -->
+						  	<!-- </div> -->
+		  				<!-- </div> -->
+				<!-- </div> -->
+				<!-- <div class="col_1_of_4 span_1_of_4"> -->
+					<!-- <div class="imageRow"> -->
+						  	<!-- <div class="single"> -->
+						  		<!-- <a href="images/pic25.jpg" rel="lightbox"><img src="images/pic25.jpg" alt="" /></a> -->
+						  	<!-- </div> -->
+						  	<!-- <div class="movie-text"> -->
+						  		<!-- <h4 class="h-text"><a href="#">Lorem ipsum dolor sit,</a></h4> -->
+						  		<!-- <p class="h-para">Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p> -->
+						  	<!-- </div> -->
+		  				<!-- </div> -->
+				<!-- </div> -->
+					<!-- <div class="clear"></div>	 -->
+			<!-- </div> -->
 			</div>
 				<div class="clear"></div>		
 			</div>

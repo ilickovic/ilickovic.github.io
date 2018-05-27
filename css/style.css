@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 */
 /* reset */
 body,hmtl{
-	width:100%;
+	width:100%; 
 	height:100%;
 }
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
@@ -45,7 +45,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background:#fff;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Poiret One', 'Underdog';
 }
 .header{
 	margin:0 auto;
@@ -71,7 +71,11 @@ body{
 	transition-duration: 0.4s;
 }
 
-
+.dropdown {
+  float: left;
+  overflow: hidden;
+  display: none;
+}
 .block
 {
 	margin-top: 0;
@@ -89,6 +93,7 @@ body{
 .wrap{
 	width:90%;
 	margin:0 auto;
+        
 }
 .logoslika{
 	width:200px;
@@ -114,7 +119,6 @@ body{
 }
 .ceoGornji
 {
-	//background-color:#1a0000;
 	font-color:gray;
 }
 .reglog{
@@ -186,7 +190,7 @@ a:hover { color: white; }
 	bottom: -3px;
 }
 .natpisAkademsko{
-	font-family: 'Poiret One', cursive;
+	font-family: 'Poiret One', 'Underdog', 'Arial';
 	font-size: 50px;
 	text-align: center;
 	padding-top: 250px;
@@ -302,6 +306,13 @@ a:hover {
 	float:left;
 	margin-right:0;
 }
+
+.ribbon
+{
+	width:100%;
+	
+}
+
 .link {
 	font-size: 12px;
 	line-height: 20px;
@@ -439,22 +450,43 @@ p.s-img a:hover{
 }
 /*--Footer--*/
 .footer {
-	background: url(../images/content1.jpg);
+	
 }
 .footer-top{
 	padding: 20px 0;
 }
 /*  GRID OF FOUR   ============================================================================= */
-.col_1_of_4{
+.col_1_of_41{
 	display: block;
 	float:left;
 	font-size:22px;
+	margin-top: 40px;
+	color:#666;
+	width: 30%;
+	padding-top: 5%;
+	
 }
-.col_1_of_4:first-child { margin-left: 0; } 
+.col_1_of_4{
+	/* display: block; */
+	float:left;
+	font-size:22px;
+	height:20%;
+	width: 28%;
+	-webkit-filter: brightness(100%);
+	transition: transform 2s ease;
+}
+.col_1_of_41:first-child { margin-left: 70px; float:left; margin-top: 10px;} 
 .span_1_of_4 {
-	width: 22%;
+	width: 28%;
 	padding: 1.5%;
+	height:20%;
 }
+
+.fb
+{ 
+	margin-left: 30px;
+}
+
 .social img:hover {
 	opacity:0.7;
 }
@@ -513,9 +545,7 @@ er-nav li {
 .pratite{
 	margin-top:9%;
 	font-size:17px;
-	font-color:white;
-	float:left;
-	display:inline;
+	float: left;
 }
 .footer-nav li a {
 	font-size: 18px;
@@ -527,15 +557,19 @@ er-nav li {
 	color:#888;
 }
 .footer-bottom {
-	background: #111;
+	background: url(../images/drvo2.png);
+	background-size: 100% 100%;
+        
 	padding: 20px;
 }
 .copy{
 	text-align:center;
+        font-weight: bold;
 }
 .copy p{
-	color:#666;
-	font-size: 13px;
+	color: #960100;
+	/*font-weight: bold;*/
+	font-size: 16px;
 }
 .copy p a {
 	color: #FCAC03;
@@ -876,9 +910,13 @@ h4.h-text a:hover{
 	color:#333;
 	cursor:pointer;
 }
-.map{
+#map{
 	border:1px solid #C7C7C7;
 	margin-bottom:15px;
+	width: 50%;
+}
+.mapa{
+	width: 100%;
 }
 
 /***** Media Quries *****/
@@ -886,10 +924,12 @@ h4.h-text a:hover{
 	.wrap{
 		width:95%;
 	}	
+
 }
 /*  GO FULL WIDTH AT LESS THAN 800 PIXELS */
 
 @media only screen and (max-width: 800px) {
+
 	.wrap{
 		width:95%;
 	}
@@ -908,7 +948,18 @@ h4.h-text a:hover{
 
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
 
-@media only screen and (max-width: 640px) and (min-width: 480px) {
+@media only screen and (max-width: 640px) {
+    .dropdown {
+  float: left;
+  overflow: hidden;
+  display: block;
+  margin-top: 40px;
+  margin-left: 30%;
+}
+.nav-wrap
+{
+    display: none;
+}
 	.wrap{
 		width:95%;
 	}
@@ -960,6 +1011,32 @@ h4.h-text a:hover{
 		width:90%;
 	}
 }
+@media only screen and (max-width:1024px) and (min-width:50px) {
+	.wrap{
+		width:90%;
+	}
+	p.txt_4 {
+		font-size:1.5em;
+	}
+	.header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		margin-top: -160px;
+		
+	}
+	
+	#example-one li { 
+	display: inline-block;	
+	margin-right: 15px;
+}
+	#example-one a {
+		font-size: 12px;
+		padding: 0;	
+}
+}
+
 @media only screen and (max-width:1024px) and (min-width:800px) {
 	.wrap{
 		width:90%;
@@ -967,18 +1044,69 @@ h4.h-text a:hover{
 	p.txt_4 {
 		font-size:1.5em;
 	}
+	.header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		margin-top: -130px;
+		
+	}
+	
+	#example-one li { 
+	display: inline-block;	
+	margin-right: 15px;
 }
+	#example-one a {
+		font-size: 12px;
+		padding: 0;	
+}
+}
+
 @media only screen and (max-width:800px) and (min-width:640px) {
+	
 	.wrap{
 		width:90%;
 	}
 	p.txt_4 {
 		font-size:1.5em;
 	}
+	
+		.nav-wrap
+	{
+		margin-top: -90px;
+		
+	}
+	
+	#example-one li { 
+	display: inline-block;	
+	margin-right: 12px;
 }
-@media only screen and (max-width:640px) and (min-width:480px) {
+
+	#example-one a {
+		font-size: 11px;
+		padding: 0;	
+}
+
+.logoslika{
+	width: 150px;
+	height: 150px;
+}
+}
+@media only screen and (max-width:640px) {
+    .navbarMobilni {
+  display: block;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+  display: block;
+}
 	.wrap{
 		width:90%;
+	}
+	.header-top {
+		height: 25%;
 	}
 	p.txt_4 {
 		font-size:1.5em;
@@ -1001,10 +1129,33 @@ h4.h-text a:hover{
 	.link2 {
 		margin-bottom:0px;
 	}
+	#example-one li { 
+	display: inline-block;	
+	padding:0;
 }
-@media only screen and (max-width:480px) and (min-width:320px) {
+
+	#example-one a {
+		font-size: 9px;
+		padding: 0;
+		margin:-10px;		
+}
+	.logoslika{
+	width: 120px;
+	height: 120px;
+	}
+		.nav-wrap
+	{
+		margin-top: -80px;
+		
+		
+	}
+}
+/*@media only screen and (max-width:480px) and (min-width:320px) {
 	.wrap{
 		width:90%;
+	}
+	.header-top {
+		height: 30%;
 	}
 	p.txt_4 {
 		font-size:1.5em;
@@ -1031,24 +1182,52 @@ h4.h-text a:hover{
 		margin-bottom:0px;
 	}
 	.banner-no {
+		margin: auto;
 		float:none;
-		display: none;
+		display: block;
+		margin-left: 70px;
+		
+	clear: both;
 	}
 	.nav-wrap {
 		width:100%;
 		margin: 30px auto;
+		margin-top: -20px;
 	}
+	.logoslika{
+	width: 90px;
+	height: 90px;
+	display: block;
+	clear: both;
+	}
+	#example-one li { 
+	display: inline-block;	
+	padding:0;
+}
+
+	#example-one a {
+		font-size: 10px;
+		padding: 0;
+		margin:-2px;		
+}
 }
 @media only screen and (max-width:320px) and (min-width:240px) {
 	.wrap{
 		width:90%;
 	}
+	.header-top {
+		height: 30%;
+	}
 	p.txt_4 {
 		font-size:1.5em;
 	}
 	#example-one a {
 		padding:0px;
 	}
+	#example-one li { 
+	display: inline-block;	
+	margin-right: 10px;
+}
 	.h-logo {
 		width:100%;
 		float:none;
@@ -1075,7 +1254,7 @@ h4.h-text a:hover{
 		width:100%;
 		margin: 30px auto;
 	}
-}
+}*/
 
 @media only screen and (max-width: 1080px) {
 	.tsc_gradient-tabs input:checked + label,.tsc_gradient-tabs label {
@@ -1274,7 +1453,7 @@ h4.h-text a:hover{
 
 .humTekst1
 {
-	color: #900b0b;
+	color: #960100;
 	font-size: 30px;
 }
 
@@ -1297,7 +1476,7 @@ h4.h-text a:hover{
 	color: #900b0b;
 	font-size:30px;
 	margin:0 auto;
-	margin-top: 350px;
+	margin-top: 0px;
 	height:50%;
 	width:94%;
 	/*background-color:black;*/
@@ -1331,7 +1510,199 @@ h4.h-text a:hover{
 	
 }
 
+.textSledeceNaRep{
+	text-align:center;
+	color: #900b0b;
+	font-size:3vw;
+	
+}
+.slikaPoz{
+	/* float:left; */
+	margin:4%;
+	  width:60%; /*ne razumem zasto ovo nije deo mainCol nego uzima 60 posto od celog contenta */
+	 border:1px solid #8b0000;
+}
+.OPozTekst
+{
+	float:left;
+	margin-left:4%;
+	margin-bottom:5%;
+	width:60%;
+	color: white;
+		font-size:1.5vw;
+		text-align:center;	
+		/* width:65%; */
 
+	
+}
+.budihuman2{
+	margin-left:38%;
+	/* width:10%; */
+	/* height:10%; */
+}
+.desniSide{
+	float:right;
+	width:24%;
+	height:100%; 
+	margin:5%;
+	/* border: 1px solid white; */
+	
+}
+.mainCol{
+	height:100%; 
+	 width:70%; 
+	float:left;
+	/* background: url(../images/contentGrad2.jpg); */
+	
+	/* margin-left:10%; */
+	/* margin-right:10%; */
+	/* margin-top:5%; */
+	color: white;
+		font-size:1.5vw;
+		text-align:center;	
+
+}
+.content2{
+	border: 1px solid black;
+		margin:0 auto;
+	float:left;
+	padding:0;
+	 width:100%;
+	height:100%;
+	
+	background-size: cover;
+	 background: url(../images/contentGrad3.jpg); 
+
+	/* padding: 20px 0; */
+}
+.content3{
+	
+	padding:0;
+	width:100%;
+	background: url(../images/contentGrad3.jpg);
+	background-size: cover;
+	/* padding: 20px 0; */
+}
+.slikaPredstave{
+	width:100%;
+	height:100%;
+}
+.opisPredstave, .uloge{
+    margin-top:4%;
+}
+.leviPredstava{
+    margin-left:5%;
+    float:left;
+    width:50%;
+    height:20%;
+    margin-top:3%;
+        font-size:1.25em;
+            margin-bottom:5%;
+
+
+
+}
+.desniPredstava{
+    /*border:2px solid  #800000;*/
+    font-size:1.25em;
+    color:white;
+    float:right;
+    width:30%;
+    height:100%;
+   
+    margin:5%;
+    margin-top:3%;
+    margin-bottom:5%;
+}
+.desniPredstava > img{
+    width:100%;
+}
+.banner1{
+    display:block;
+    width:60%;
+    height:30%;
+    clear:both;
+    margin-top:10%;
+    margin-left:auto;
+        margin-right:auto;
+
+    
+
+}
+.slikaslajd{
+      
+    width:50%;
+    height:50%;
+}
+.opisPredstave{
+    color:white;
+}
+
+.navbarMobilni {
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+
+
+/* Dropdown button */
+.dropdown .dropbtn {
+ 
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #960100;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
 
