@@ -1500,7 +1500,8 @@ h4.h-text a:hover{
 }
 .sticky
 {
-    width: 100%;
+    width: 30px;
+	height: 30px;
    
 }
         .vesti{
