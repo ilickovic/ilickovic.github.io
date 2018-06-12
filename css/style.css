@@ -4,6 +4,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
 /* reset */
 body,hmtl{
 	width:100%; 
@@ -48,9 +49,10 @@ body{
 	font-family: 'Poiret One', 'Underdog';
 }
 .header{
+    width:100%;
 	margin:0 auto;
 	/* background-color:black; */
-	background: url(../images/poz.jpg);
+	background: url(../images/poz0.jpg);
 	/* background-repeat:no-repeat; */
 	/* background-position:top right; */
 	  /* background-size:  100% 100%; ines pogledaj ovo, ne znam sta da mu radimo :D */
@@ -76,6 +78,39 @@ body{
   overflow: hidden;
   display: none;
 }
+
+.vesti{
+    height: 480px;
+    width: 50%;
+ 
+   
+    display:block;
+    float:left;
+    margin-bottom: 10%;
+    margin-top: 8%;
+    padding-left: 10%;
+    
+}
+.skrol{
+    width: 50%;
+    height: 480px;
+    
+    background: url(../images/akcija2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 70% 100%;
+    text-align: center;
+    padding-top: 9%;
+    padding-left: 14%;
+    padding-right: 14%;
+    font-family: 'Underdog';
+    margin-bottom: 10%;
+    margin-top: 8%;
+    display:inline;
+    float:left;
+}
+
 .block
 {
 	margin-top: 0;
@@ -102,20 +137,25 @@ body{
 	transition-duration: 1s;
 }
 .sticky{
-	width:75px;
-	height:75px;	
+	width:23%;
+	height:23%;	
 	position: center;
-	padding-top: 65px;
+	padding-top: 85px;
 	transition-duration: 1s;
 	
 }
 .sticky1{
 	background: url(../images/drvo1.png);
 	background-size: 100% 100%;
-	margin-top: -66px;
-	padding-top: -66px;
+	margin-top: -86px;
+	padding-top: -86px;
 	transition-duration: 0.4s;
 	
+}
+
+.nav-wrap1 example-one{
+    margin-top:-200px;
+
 }
 .ceoGornji
 {
@@ -145,6 +185,7 @@ a:hover { color: white; }
 	float: right;
 	width: 67%;
 	margin: 50px; 
+        transition-duration: 0.1s;
 }
 .nav-wrap ul{
 	float:right;
@@ -155,11 +196,12 @@ a:hover { color: white; }
 /* Example One */
 #example-one { 
 	margin: 0 auto; 
-	margin-top: 30px;
+	margin-top: 15px;
 	list-style: none; 
 	position: relative;
 	
 }
+
 #example-one li { 
 	display: inline-block;	
 	margin-right: 20px;
@@ -195,6 +237,7 @@ a:hover { color: white; }
 	text-align: center;
 	padding-top: 250px;
 	color: white;
+        padding-bottom: 3%;
 }
 /* .h-logo{ */
 	/* float:left; */
@@ -245,10 +288,45 @@ a:hover { color: white; }
 	font-size: 13px;
 	color:#aaa;
 }
+.triSlike{
+	text-align:center;
+	color: #900b0b;
+	font-size:30px;
+	margin:0 auto;
+	margin-top: 0px;
+	height:50%;
+	width:94%;
+	/*background-color:black;*/
+	padding:3%;
+        padding-top: 0;
+}
+
+.triSlikeImg{
+	width:25%;
+	margin:3%;
+        margin-top: 0;
+	height:100%;
+	 -webkit-filter: brightness(100%);
+	  transition: transform 0.8s ease;
+          box-shadow: 5px 5px 12px black;
+}
+.triSlikeImg:hover{  /* svasta mozeee */
+	  /* -webkit-filter: grayscale(100%);  */
+    /* opacity: 0.7; */
+    /* filter: alpha(opacity=70);  */
+	 /* border: 1px solid white;  */
+	  -webkit-filter: brightness(200%);
+	  transform: scale(1.1);
+}
+.slikaOdTri{
+	float:left;
+	border: 1% solid yellow;
+}
 /*--Content--*/
 .content{
 	
 	padding:0;
+        
 	width:100%;
 	background: url(../images/content.jpg);
 	background-size: cover;
@@ -379,6 +457,12 @@ a:hover {
 	font-family : verdana, arial, helvetica, helve, sans-serif;
 	padding:0; 	
 }
+.nav-wrap1{
+    float: right;
+	width: 67%;
+        margin-top: -65px;
+transition-duration: 0.1s;
+}
 /***** Media Quries *****/
 @media only screen and (max-width: 1024px) {
 	.wrap{
@@ -462,30 +546,130 @@ p.s-img a:hover{
 	font-size:22px;
 	margin-top: 40px;
 	color:#666;
-	width: 30%;
+	width: 33%;
 	padding-top: 5%;
 	
 }
 .col_1_of_4{
 	/* display: block; */
+        margin:2%;
 	float:left;
 	font-size:22px;
-	height:20%;
+	/*height:20%;*/
 	width: 28%;
 	-webkit-filter: brightness(100%);
+	/*transition: transform 2s ease;*/
+}
+.col_1_of_4:hover{
+      -webkit-filter: brightness(200%);
+	  /*transform: scale(1.1);*/
+}
+
+.col_1_of_41:first-child { margin-left: 70px; float:left; margin-top: 10px;} 
+.span_1_of_41 {
+        color: #8c8c8c;
+	width: 35%;
+	padding: 1%;
+        padding-left: 0;
+        padding-rigth: 0;
+        padding-top: 5%;
+	height:20%;
+}
+.span_1_of_4{
+	width: 28%;
+	padding: 1%;
+        padding-left: 0;
+        padding-rigth: 0;
+        padding-top: 5%;
+	/*height:20%;*/
+        margin:2%;
+        -webkit-filter: brightness(100%);
 	transition: transform 2s ease;
 }
-.col_1_of_41:first-child { margin-left: 70px; float:left; margin-top: 10px;} 
-.span_1_of_4 {
-	width: 28%;
-	padding: 1.5%;
-	height:20%;
+
+.kontakt
+{
+    margin-bottom: 10%;
+    font-size: 19px;
+}
+
+.pratite{
+	
+	font-size:19px;
+	float: left;
+}
+
+
+.budihuman
+{
+	position: absolute;
+	right: 0;
+        width: 12%;
+        margin-top: -5%;
+	
 }
 
 .fb
 { 
-	margin-left: 30px;
+	margin-left: 8px;
 }
+.navbarMobilni {
+  background-color: #333;
+  
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+ 
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 18px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #960100;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+ display: none;
+  /*position: absolute;*/
+  background-color: black;
+  border: 2px solid #960100;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #f3b804;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #131313;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*.navbarMobilni1{
+   margin-top: 200px;
+   
+}*/
 
 .social img:hover {
 	opacity:0.7;
@@ -542,11 +726,7 @@ er-nav li {
 	list-style-image: url(../images/f-icon.png);
 	margin: 0 0 5px 20px;
 }
-.pratite{
-	margin-top:9%;
-	font-size:17px;
-	float: left;
-}
+
 .footer-nav li a {
 	font-size: 18px;
 	color:#666;
@@ -559,17 +739,19 @@ er-nav li {
 .footer-bottom {
 	background: url(../images/drvo2.png);
 	background-size: 100% 100%;
-        
+        clear: both;
 	padding: 20px;
+        height:10%;
 }
 .copy{
 	text-align:center;
-        font-weight: bold;
+        font-family: 'Underdog';
 }
 .copy p{
 	color: #960100;
-	/*font-weight: bold;*/
+	
 	font-size: 16px;
+    
 }
 .copy p a {
 	color: #FCAC03;
@@ -595,15 +777,25 @@ er-nav li {
 	margin: 0% 0 0% 2.6%;
 }
 .span_1_of_2{
-	width: 67.1%;
+	width: 100%;
 	padding:1.5%;
 }
 .images_3_of_2 {
-	width: 45.2%;
+	width: 35%;
 	float: left;
+        height:20%;
 }
 .span_3_of_2{
+    padding-top:0;
 	width: 52.2%;
+}
+.images_3_of_22 {
+	width: 100%;
+	display:block;
+}
+.span_3_of_22{
+	width: 100%;
+        display:block;
 }
 .span_3_of_1{
 	width: 25.2%;
@@ -738,7 +930,17 @@ er-nav li {
 	color: #900b0b;
 }
 .about-top{
-	margin-bottom:5%;
+  
+	margin:5%;
+        width:100%; 
+/*        width:22%;
+        float:left;*/
+}
+.about-top2{
+  
+	margin:5%;
+        width:22%;
+        float:left;
 }
 .small_box{
 	margin-bottom: 11px;
@@ -798,8 +1000,9 @@ li.m_bottom{
 	margin-bottom:0px;
 }
 h4.h-text a{
-	color:#DB9603;
-	font-size:1.2em;
+	color: #960100;
+	font-size:2em;
+        font-weight: bold;  
 }
 h4.h-text a:hover{
 	color:#888;
@@ -918,8 +1121,33 @@ h4.h-text a:hover{
 .mapa{
 	width: 100%;
 }
+.OPozTekst
+{
+	float:left;
+	margin-left:4%;
+	margin-bottom:5%;
+	width:60%;
+	color: white;
+		font-size:1.5vw;
+		text-align:center;	
+		/* width:65%; */
+
+	
+}
 
 /***** Media Quries *****/
+@media only screen and (max-width: 1280px) {
+	.wrap{
+		width:95%;
+	}	
+
+}
+@media only screen and (max-width: 1366px) {
+	.wrap{
+		width:95%;
+	}	
+
+}
 @media only screen and (max-width: 1024px) {
 	.wrap{
 		width:95%;
@@ -933,10 +1161,10 @@ h4.h-text a:hover{
 	.wrap{
 		width:95%;
 	}
-	.span_2_of_3 {
+/*	.span_2_of_3 {
 		width:94%;
 		padding:3%; 
-	}
+	}*/
 	.col{ 
 		margin: 1% 0 1% 0%;
 	}
@@ -949,13 +1177,7 @@ h4.h-text a:hover{
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
 
 @media only screen and (max-width: 640px) {
-    .dropdown {
-  float: left;
-  overflow: hidden;
-  display: block;
-  margin-top: 40px;
-  margin-left: 30%;
-}
+
 .nav-wrap
 {
     display: none;
@@ -963,10 +1185,10 @@ h4.h-text a:hover{
 	.wrap{
 		width:95%;
 	}
-	.span_2_of_3 {
+/*	.span_2_of_3 {
 		width:94%;
 		padding:3%; 
-	}
+	}*/
 	.col{ 
 		margin: 1% 0 1% 0%;
 	}
@@ -985,10 +1207,10 @@ h4.h-text a:hover{
 	.wrap{
 		width:95%;
 	}
-	.span_2_of_3 {
+/*	.span_2_of_3 {
 		width:90%;
 		padding:5%; 
-	}
+	}*/
 	.col { 
 		margin: 1% 0 1% 0%;
 	}
@@ -1005,11 +1227,45 @@ h4.h-text a:hover{
 	.wrap{
 		width:90%;
 	}
+        .header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		/*margin-top: -160px;*/
+		
+	}
+        #example-one li { 
+	display: inline-block;	
+	margin-right: 25px;
+}
+	#example-one a {
+		font-size: 13px;
+		padding: 0;	
+}
+  
 }
 @media only screen and (max-width:1280px) and (min-width:1024px) {
 	.wrap{
 		width:90%;
 	}
+        .header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		/*margin-top: -160px;*/
+		
+	}
+        #example-one li { 
+	display: inline-block;	
+	margin-right: 25px;
+}
+	#example-one a {
+		font-size: 13px;
+		padding: 0;	
+}
+     
 }
 @media only screen and (max-width:1024px) and (min-width:50px) {
 	.wrap{
@@ -1026,6 +1282,7 @@ h4.h-text a:hover{
 		margin-top: -160px;
 		
 	}
+      
 	
 	#example-one li { 
 	display: inline-block;	
@@ -1035,6 +1292,10 @@ h4.h-text a:hover{
 		font-size: 12px;
 		padding: 0;	
 }
+/*.thumbnail{
+    width:10%;
+    height:10%;
+}*/
 }
 
 @media only screen and (max-width:1024px) and (min-width:800px) {
@@ -1052,14 +1313,40 @@ h4.h-text a:hover{
 		margin-top: -130px;
 		
 	}
-	
+ 
+	.nav-wrap1
+        {
+            margin-top: -60px;
+        }
 	#example-one li { 
 	display: inline-block;	
-	margin-right: 15px;
+	margin-right: 13px;
 }
 	#example-one a {
 		font-size: 12px;
 		padding: 0;	
+}
+.vesti{
+    display: block;
+    float: none;
+       width: 80%;
+}
+.skrol{
+    display: block;
+    float: none;
+    
+        width: 70%;
+    padding-top: 12%;
+    padding-left: 14%;
+    padding-right: 14%;
+    font-family: 'Underdog';
+    margin-bottom: 10%;
+    margin-top: 1%;
+
+}
+.OPozTekst
+{
+    width: 100%;
 }
 }
 
@@ -1071,12 +1358,18 @@ h4.h-text a:hover{
 	p.txt_4 {
 		font-size:1.5em;
 	}
-	
+	.header-top {
+		height: 30%;
+	}
 		.nav-wrap
 	{
 		margin-top: -90px;
 		
 	}
+        .nav-wrap1
+        {
+            margin-top: 70px;
+        }
 	
 	#example-one li { 
 	display: inline-block;	
@@ -1088,19 +1381,71 @@ h4.h-text a:hover{
 		padding: 0;	
 }
 
+
+
+.vesti{
+    display: block;
+    float: none;
+       width: 80%;
+}
+.skrol{
+    display: block;
+    float: none;
+    
+               width: 70%;
+    padding-top: 15%;
+    padding-left: 14%;
+    padding-right: 14%;
+    font-family: 'Underdog';
+    margin-bottom: 10%;
+    margin-top: 1%;
+
+}
 .logoslika{
 	width: 150px;
 	height: 150px;
 }
+.sticky
+{
+    width: 100%;
+   
+}
+.OPozTekst
+{
+    width: 100%;
+    font-size: 13px;
+}
+
 }
 @media only screen and (max-width:640px) {
     .navbarMobilni {
   display: block;
+
 }
+.navbarMobilni1{
+    /*margin-top: 30px;*/
+}
+   
+
 .dropdown {
   float: left;
   overflow: hidden;
   display: block;
+  /*margin-top: 14%;*/
+  margin-left: 10%;
+ padding-top: 14%;
+}
+
+.dropbtn
+{
+    padding: 20px;
+}
+
+.sticky1{
+    margin-top: -78px;
+}
+.sticky{
+    padding-top: 75px;
 }
 	.wrap{
 		width:90%;
@@ -1149,6 +1494,87 @@ h4.h-text a:hover{
 		
 		
 	}
+        .logoslika{
+	width: 150px;
+	height: 150px;
+}
+.sticky
+{
+    width: 100%;
+   
+}
+        .vesti{
+    display: block;
+    float: none;
+       width: 100%;
+}
+.skrol{
+    display: block;
+    float: none;
+       width: 100%;
+            height: 360px;
+    padding-top: 20%;
+    padding-left: 23%;
+    padding-right: 23%;
+    font-family: 'Underdog';
+    margin-bottom: 10%;
+    margin-top: 1%;
+
+}
+#map{
+	border:1px solid #C7C7C7;
+	margin-bottom:15px;
+	width: 95%;
+}
+.span_1_of_41{
+    width: 80%;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 50%;
+}
+.kontakt
+{
+    font-size: 200%;
+}
+.pratite{
+    font-size: 200%;
+}
+.humTekst
+{
+    font-size: 80%;
+}
+.budihuman
+{
+    width: 20%;
+}
+.col_1_of_41:first-child{
+    margin-left: 0;
+}
+.registracija a
+{
+    font-size: 10px;
+}
+.prijava a
+{
+    font-size: 10px;
+}
+.nav-wrap1
+{
+    margin-top: -50px;
+}
+.triSlikeImg
+{
+    display: block;
+    margin: auto;
+    margin-bottom: 15%;
+    float: none;
+    width: 70%;
+}
+.OPozTekst
+{
+    width: 100%;
+    font-size: 13px;
+}
 }
 /*@media only screen and (max-width:480px) and (min-width:320px) {
 	.wrap{
@@ -1316,6 +1742,7 @@ h4.h-text a:hover{
 	.images_1_of_3:nth-child(2) {
 		margin-bottom: 2em;
 	}
+      
 }
 @media only screen and (max-width: 768px) {
 	.span_1_of_4 {
@@ -1331,9 +1758,9 @@ h4.h-text a:hover{
 	}
 }
 @media only screen and (max-width: 667px) {
-	.nav-wrap {
+	/*.nav-wrap {
 		width: 75%;
-	}
+	}*/
 	#example-one li {
 		margin-right: 10px;
 	}
@@ -1432,16 +1859,36 @@ h4.h-text a:hover{
 		width: 120px;
 	}
 }
-
+@media only screen and (max-height: 500px){
+	.nav-wrap
+        {
+            margin: 5px;
+        }
+        .dropdown
+        {
+            padding-top: 0;
+        }
+        .sticky1
+        {
+            margin-top: -40px;
+        }
+        .nav-wrap1
+        {
+            margin-top: 20px;
+        }
+        .sticky{
+            margin-top: -45px;
+        }
+}
 .kl
 {
-		padding-top: 70px;
+		padding-top: 10%;
 }
 
 .hum
 {
 	/*background: black;*/
-	margin-bottom: 150px;
+	margin-bottom: 7%;
 	text-align: center;
 	font-size: 20px;
 }
@@ -1463,45 +1910,9 @@ h4.h-text a:hover{
 	color: #00994d;
 }
 
-.budihuman
-{
-	position: absolute;
-	right: 0;
-	top: 1100px;
-}
 
 
-.triSlike{
-	text-align:center;
-	color: #900b0b;
-	font-size:30px;
-	margin:0 auto;
-	margin-top: 0px;
-	height:50%;
-	width:94%;
-	/*background-color:black;*/
-	padding:3%;
-}
 
-.triSlikeImg{
-	width:25%;
-	margin:3%;
-	height:100%;
-	 -webkit-filter: brightness(100%);
-	  transition: transform 0.8s ease;
-}
-.triSlikeImg:hover{  /* svasta mozeee */
-	  /* -webkit-filter: grayscale(100%);  */
-    /* opacity: 0.7; */
-    /* filter: alpha(opacity=70);  */
-	 /* border: 1px solid white;  */
-	  -webkit-filter: brightness(200%);
-	  transform: scale(1.1);
-}
-.slikaOdTri{
-	float:left;
-	border: 1% solid yellow;
-}
 
 .textSledeceNaRep{
 	text-align:center;
@@ -1519,37 +1930,26 @@ h4.h-text a:hover{
 .slikaPoz{
 	/* float:left; */
 	margin:4%;
-	  width:60%; /*ne razumem zasto ovo nije deo mainCol nego uzima 60 posto od celog contenta */
+	  width:80%; /*ne razumem zasto ovo nije deo mainCol nego uzima 60 posto od celog contenta */
 	 border:1px solid #8b0000;
 }
-.OPozTekst
-{
-	float:left;
-	margin-left:4%;
-	margin-bottom:5%;
-	width:60%;
-	color: white;
-		font-size:1.5vw;
-		text-align:center;	
-		/* width:65%; */
 
-	
-}
 .budihuman2{
-	margin-left:38%;
+	
 	/* width:10%; */
 	/* height:10%; */
 }
-.desniSide{
+.k1Side{
 	float:right;
 	width:24%;
-	height:100%; 
-	margin:5%;
+	/*height:100%;*/ 
+	margin-right:5%;
+        /*margin-top:5%;*/
 	/* border: 1px solid white; */
 	
 }
 .mainCol{
-	height:100%; 
+	/*height:100%;*/ 
 	 width:70%; 
 	float:left;
 	/* background: url(../images/contentGrad2.jpg); */
@@ -1563,15 +1963,15 @@ h4.h-text a:hover{
 
 }
 .content2{
-	border: 1px solid black;
-		margin:0 auto;
+	
+        margin:0 auto;
 	float:left;
 	padding:0;
 	 width:100%;
-	height:100%;
+	/*height:100%;*/
 	
 	background-size: cover;
-	 background: url(../images/contentGrad3.jpg); 
+	 background: url(../images/content.jpg); 
 
 	/* padding: 20px 0; */
 }
@@ -1594,7 +1994,7 @@ h4.h-text a:hover{
     margin-left:5%;
     float:left;
     width:50%;
-    height:20%;
+    height:30%;
     margin-top:3%;
         font-size:1.25em;
             margin-bottom:5%;
@@ -1638,10 +2038,7 @@ h4.h-text a:hover{
     color:white;
 }
 
-.navbarMobilni {
-  background-color: #333;
-  font-family: Arial;
-}
+
 
 /* Links inside the navbar */
 .navbar a {
@@ -1656,57 +2053,146 @@ h4.h-text a:hover{
 /* The dropdown container */
 
 
-/* Dropdown button */
-.dropdown .dropbtn {
- 
-  font-size: 16px; 
+
+#fiksno
+{
+    color: #f3b804;
+    /*color:white;*/
+    font-size: 18px;
+    overflow: hidden;
+    width:100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+}
+
+.thumbnail {
+    padding:0px;
+}
+.panel {
+	position:relative;
+}
+.panel>.panel-heading:after,.panel>.panel-heading:before{
+	position:absolute;
+	top:11px;left:-16px;
+	right:100%;
+	width:0;
+	height:0;
+	display:block;
+	content:" ";
+	border-color:transparent;
+	border-style:solid solid outset;
+	pointer-events:none;
+}
+.panel>.panel-heading:after{
+	border-width:7px;
+	border-right-color:#f7f7f7;
+	margin-top:1px;
+	margin-left:2px;
+}
+.panel>.panel-heading:before{
+	border-right-color:#ddd;
+	border-width:8px;
+}
+#komentariKontejner{
+    margin-top:5%;
+}
+
+.celiKomentari{
+    margin-left:15%;
+}
+.panel-body{
+    background:transparent;
+}
+#pwd{
+    background:none;
+}
+.lead emoji-picker-container{
+    background:none;
+}
+.form-control{
+    background:none;
+    color:white;
+   font-size:20px;
+}
+
+a, a:hover, a:active, a:focus {
+    outline:0;
+}
+
+.textcontact
+{
+    width: 100%;
+}
+
+.registracija
+{
+    color: #f3b804;
+    float: right;
+    margin-right: 30px;
+
+}
+
+
+.prijava
+{
+        color: #f3b804;
+    float: right;
+    margin-right: 30px;
+}
+
+
+.divOceni {
+    display: inline-block;
+    
+}
+.rating { margin: 5%; padding: 0; float:left; clear:both;}
+#lset{ margin: 0; padding: 0; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
   border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  float: left;
 }
 
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #960100;
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
 }
 
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
+.rating > .half:before { 
+  content: "\f089";
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+}
+.Oceni {
+    width:100px;
+    height:30px;
+    background-color: blue;
+    color:white;
+    margin:4%;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+.rating > label { 
+  color: #ddd; 
+ float: right; 
 }
 
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
+/***** CSS Magic to Highlight Stars on Hover *****/
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
 
-
-
-
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
 
 
 

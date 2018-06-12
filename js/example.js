@@ -40,9 +40,14 @@ $(function() {
     if ($(window).scrollTop() > 50) {
         $('.logoslika').addClass('sticky');
 		$('.header-top').addClass('sticky1');
+                $('.nav-wrap').addClass('nav-wrap1');
+                $('.navbarMobilni').addClass('navbarMobilni1');
+        
     } else {
         $('.logoslika').removeClass('sticky');
 		$('.header-top').removeClass('sticky1');
+                $('.nav-wrap').removeClass('nav-wrap1');
+               $('.navbarMobilni').removeClass('navbarMobilni1');
     }
 });
     
@@ -84,3 +89,4 @@ $(function() {
     $(".current_page_item_two a").mouseenter();
     
 });
+
