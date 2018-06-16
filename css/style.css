@@ -1593,7 +1593,9 @@ h4.h-text a:hover{
     margin-top: -68px;
 }
 .sticky{
-    padding-top: 67px;
+    width: 30%;
+	height: 30%;
+	padding-top: 100px;
 }
 	.wrap{
 		width:90%;
