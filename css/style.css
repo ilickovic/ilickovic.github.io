@@ -464,7 +464,8 @@ a:hover {
 transition-duration: 0.1s;
 }
 /***** Media Quries *****/
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 1366px) {
 	.wrap{
 		width:90%;
 	}	
@@ -690,7 +691,8 @@ p.txt_4{
 	padding: 1.5%;
 }
 /***** Media Quries *****/
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 1366px) {
 	.wrap{
 		width:95%;
 	}	
@@ -826,7 +828,8 @@ er-nav li {
 	line-height: 1.6em;
 }
 /***** Media Quries *****/
-@media only screen and (max-width: 1024px) {
+
+@media only screen and (max-width: 1366px) {
 	.wrap{
 		width:90%;
 	}	
@@ -904,16 +907,27 @@ er-nav li {
 }
 .watch_but {
 	display: inline-block;
-	background:#DB9603;
+	background:#960100;
 	position: relative;
 	border-radius: 2px;
 	font-size: 13px;
 	line-height: 11px;
 	color: #FFF;
-	border-bottom: 1px solid #DB9603;
-	border-right: 1px solid #DB9603;
+	font-family: 'Underdog';
 	margin: 15px 0 0;
 	padding:12px 14px 9px 10px;
+}
+
+.watch_but:hover
+{
+    background: #f3b804;
+    color: white;
+	transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+	/*-- w3layouts --*/
+    -ms-transition: 0.5s all;
 }
 .span_3_of_2 h4{
 	color:#888;
@@ -1005,7 +1019,7 @@ h4.h-text a{
         font-weight: bold;  
 }
 h4.h-text a:hover{
-	color:#888;
+	color:white;
 }
 /*--404 page--*/
 .pnot {
@@ -1134,21 +1148,35 @@ h4.h-text a:hover{
 
 	
 }
-
-/***** Media Quries *****/
-@media only screen and (max-width: 1280px) {
-	.wrap{
-		width:95%;
-	}	
+.slikaPoz{
+	/* float:left; */
+	margin:4%;
+	  width:80%; /*ne razumem zasto ovo nije deo mainCol nego uzima 60 posto od celog contenta */
 
 }
+.mainCol{
+	/*height:100%;*/ 
+	 width:70%; 
+	float:left;
+	/* background: url(../images/contentGrad2.jpg); */
+	
+	/* margin-left:10%; */
+	/* margin-right:10%; */
+	/* margin-top:5%; */
+	color: white;
+		font-size:1.5vw;
+		text-align:center;	
+
+}
+/***** Media Quries *****/
+
 @media only screen and (max-width: 1366px) {
 	.wrap{
 		width:95%;
 	}	
 
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1366px) {
 	.wrap{
 		width:95%;
 	}	
@@ -1223,51 +1251,7 @@ h4.h-text a:hover{
 	}
 }
 /*--Media Queries--*/
-@media only screen and (max-width:1366px) and (min-width:1280px) {
-	.wrap{
-		width:90%;
-	}
-        .header-top {
-		height: 30%;
-	}
-	.nav-wrap
-	{
-		/*margin-top: -160px;*/
-		
-	}
-        #example-one li { 
-	display: inline-block;	
-	margin-right: 25px;
-}
-	#example-one a {
-		font-size: 13px;
-		padding: 0;	
-}
-  
-}
-@media only screen and (max-width:1280px) and (min-width:1024px) {
-	.wrap{
-		width:90%;
-	}
-        .header-top {
-		height: 30%;
-	}
-	.nav-wrap
-	{
-		/*margin-top: -160px;*/
-		
-	}
-        #example-one li { 
-	display: inline-block;	
-	margin-right: 25px;
-}
-	#example-one a {
-		font-size: 13px;
-		padding: 0;	
-}
-     
-}
-@media only screen and (max-width:1024px) and (min-width:50px) {
+@media only screen and (max-width:1366px) and (min-width:50px) {
 	.wrap{
 		width:90%;
 	}
@@ -1296,6 +1280,147 @@ h4.h-text a:hover{
     width:10%;
     height:10%;
 }*/
+}
+@media only screen and (max-width:1600px) and (min-width:1498px) {
+	.wrap{
+		width:90%;
+	}
+        .header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		
+                margin-left: 100px;
+		margin-top: 60px;
+	}
+ 
+	.nav-wrap1
+        {
+            margin-top: 80px;
+        }
+        #example-one li { 
+	display: inline-block;	
+	margin-right: 25px;
+}
+	#example-one a {
+		font-size: 13px;
+		padding: 0;	
+}
+  
+}
+@media only screen and (max-width:1498px) and (min-width:1350px) {
+	.wrap{
+		width:90%;
+	}
+        .header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		
+                margin-left: 50px;
+		margin-top: 60px;
+	}
+ 
+	.nav-wrap1
+        {
+            margin-top: 80px;
+        }
+        #example-one li { 
+	display: inline-block;	
+	margin-right: 25px;
+}
+	#example-one a {
+		font-size: 13px;
+		padding: 0;	
+}
+  
+}
+@media only screen and (max-width:1350px) and (min-width:1210px) {
+	.wrap{
+		width:90%;
+	}
+        .header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		margin: 0;
+                margin-left: 50px;
+		margin-top: 60px;
+	}
+ 
+	.nav-wrap1
+        {
+            margin-top: 80px;
+        }
+        #example-one li { 
+	display: inline-block;	
+	margin-right: 25px;
+}
+	#example-one a {
+		font-size: 13px;
+		padding: 0;	
+}
+  
+}
+
+/*@media only screen and (max-width:1280px) and (min-width:1024px) {
+	.wrap{
+		width:90%;
+	}
+        p.txt_4 {
+		font-size:1.5em;
+	}
+        .header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		margin-top: -130px;
+		
+	}
+        #example-one li { 
+	display: inline-block;	
+	margin-right: 13px;
+}
+	#example-one a {
+		font-size: 12px;
+		padding: 0;	
+}
+     
+}
+*/
+@media only screen and (max-width:1210px) and (min-width:1024px) {
+	.wrap{
+		width:90%;
+	}
+	p.txt_4 {
+		font-size:1.5em;
+	}
+	.header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		margin: 0;
+		margin-top: 60px;
+	}
+ 
+	.nav-wrap1
+        {
+            margin-top: 80px;
+        }
+        #example-one li { 
+	display: inline-block;	
+	margin-right: 25px;
+}
+	#example-one a {
+		font-size: 13px;
+		padding: 0;	
+}
+
 }
 
 @media only screen and (max-width:1024px) and (min-width:800px) {
@@ -1347,6 +1472,10 @@ h4.h-text a:hover{
 .OPozTekst
 {
     width: 100%;
+}
+.budihuman2
+{
+    width: 15%;
 }
 }
 
@@ -1415,7 +1544,22 @@ h4.h-text a:hover{
     width: 100%;
     font-size: 13px;
 }
-
+.natpisAkademsko
+{
+    font-size: 40px;
+}
+.mainCol
+{
+    width: 90%;
+}
+.slikaPoz
+{
+    width: 100%;
+}
+.budihuman2
+{
+    width: 20%;
+}
 }
 @media only screen and (max-width:640px) {
     .navbarMobilni {
@@ -1432,8 +1576,12 @@ h4.h-text a:hover{
   overflow: hidden;
   display: block;
   /*margin-top: 14%;*/
-  margin-left: 10%;
- padding-top: 14%;
+  margin: auto;
+ padding-top: 50px;
+}
+.dropdown1 {
+ padding-top: 70px;
+ padding-left: 40px;
 }
 
 .dropbtn
@@ -1442,10 +1590,10 @@ h4.h-text a:hover{
 }
 
 .sticky1{
-    margin-top: -78px;
+    margin-top: -68px;
 }
 .sticky{
-    padding-top: 75px;
+    padding-top: 67px;
 }
 	.wrap{
 		width:90%;
@@ -1490,7 +1638,7 @@ h4.h-text a:hover{
 	}
 		.nav-wrap
 	{
-		margin-top: -60px;
+		margin-top: -80px;
 		
 		
 	}
@@ -1500,9 +1648,7 @@ h4.h-text a:hover{
 }
 .sticky
 {
-    width: 30%;
-	height: 30%;
-	padding-top: 100px;
+    width: 100%;
    
 }
         .vesti{
@@ -1572,10 +1718,47 @@ h4.h-text a:hover{
     float: none;
     width: 70%;
 }
+.mainCol
+{
+    width: 90%;
+}
 .OPozTekst
 {
     width: 100%;
     font-size: 13px;
+}
+.slikaPoz
+{
+    width: 100%;
+}
+.budihuman2
+{
+    width: 40%;
+}
+.natpisAkademsko
+{
+    font-size: 40px;
+}
+}
+@media only screen and (max-width:420px) {
+    .dropdown {
+  float: left;
+  overflow: hidden;
+  display: block;
+  /*margin-top: 14%;*/
+  margin: auto;
+ padding-top: 30px;
+}
+
+}
+@media only screen and (max-width:390px) {
+
+.dropdown1 {
+ padding-top: 60px;
+ padding-left: 40px;
+}
+.dropdown-content{
+    min-width:40px;
 }
 }
 /*@media only screen and (max-width:480px) and (min-width:320px) {
@@ -1683,28 +1866,20 @@ h4.h-text a:hover{
 		margin: 30px auto;
 	}
 }*/
-
-@media only screen and (max-width: 1080px) {
-	.tsc_gradient-tabs input:checked + label,.tsc_gradient-tabs label {
-		width: 70px;
-		padding: 0 10px;
+@media only screen and (max-width: 1366px) {
+		.content-top h3 {
+		font-size: 1.5em;
 	}
-	.tsc_gradient-tabs input {
-		width: 70px;
+	.span_3_of_2 h4 {
+		font-size: 1.3em;
 	}
-	.tsc_gradient-tabs label {
-		padding: 0 7px;
+}
+@media only screen and (max-width: 1280px) {
+		.content-top h3 {
+		font-size: 1.5em;
 	}
-	p.txt_4 {
-		font-size: 1.2em;
-	}
-	.premier .col {
-		width: 100%;
-		margin-left: 0%;
-	}
-	.premier a.col img {
-		float: left;
-		margin-right: 1em;
+	.span_3_of_2 h4 {
+		font-size: 1.3em;
 	}
 }
 @media only screen and (max-width: 1024px) {
@@ -1929,12 +2104,7 @@ h4.h-text a:hover{
 	font-size:3vw;
 	
 }
-.slikaPoz{
-	/* float:left; */
-	margin:4%;
-	  width:80%; /*ne razumem zasto ovo nije deo mainCol nego uzima 60 posto od celog contenta */
-	 border:1px solid #8b0000;
-}
+
 
 .budihuman2{
 	
@@ -1950,20 +2120,7 @@ h4.h-text a:hover{
 	/* border: 1px solid white; */
 	
 }
-.mainCol{
-	/*height:100%;*/ 
-	 width:70%; 
-	float:left;
-	/* background: url(../images/contentGrad2.jpg); */
-	
-	/* margin-left:10%; */
-	/* margin-right:10%; */
-	/* margin-top:5%; */
-	color: white;
-		font-size:1.5vw;
-		text-align:center;	
 
-}
 .content2{
 	
         margin:0 auto;
@@ -2195,8 +2352,67 @@ a, a:hover, a:active, a:focus {
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+.alert {
+    margin: auto;
+    height:5%;
+    width: 30%;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-clip: padding-box;
+        padding-bottom: 3%;
+    
+}
 
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 25px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
-
-
-
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+.divProsecnaOcena {
+  
+    display: inline-block;
+    clear: both;
+    float:right;
+    color:white;
+    font-size: 20px;
+    
+}
+.divProsecnaOcena {
+    font-size: 30px;
+}
+.divvvOcena {
+  
+    display: inline-block;
+    clear: both;
+    float:right;
+    color:white;
+    
+}
+.prosecnaOcena {
+    float:right;
+    font-size: 32px;
+    color:white;
+    
+}
+.zvezdica {
+    top-margin: 0px;
+    width:34px;
+    height:34px;
+    background:  url(../images/zvezdica2.png);
+    float:right;
+}
