@@ -1808,6 +1808,9 @@ h4.h-text a:hover, h4.repertoar-text a:hover{
 .dropdown-content{
     min-width:40px;
 }
+.sticky{
+	margin-top: 10%;
+}
 }
 /*@media only screen and (max-width:480px) and (min-width:320px) {
 	.wrap{
