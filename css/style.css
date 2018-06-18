@@ -31,7 +31,7 @@ a{text-decoration:none;}
 .underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}/* Add 5px bottom padding and a underline */
 nav.vertical ul li{	display:block;}/* vertical menu */
 nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
-img{max-width:100%;}
+img{max-width:100%; }
 /*end reset*/
 @font-face {
 	font-family: 'AmbleRegular';
@@ -302,6 +302,7 @@ a:hover { color: white; }
 }
 
 .triSlikeImg{
+        border: 1px white solid;
 	width:25%;
 	margin:3%;
         margin-top: 0;
@@ -786,6 +787,8 @@ er-nav li {
 	width: 35%;
 	float: left;
         height:20%;
+        border: 1px white solid;
+        box-shadow: 5px 5px 12px black;
 }
 .span_3_of_2{
     padding-top:0;
@@ -916,6 +919,7 @@ er-nav li {
 	font-family: 'Underdog';
 	margin: 15px 0 0;
 	padding:12px 14px 9px 10px;
+        box-shadow: 3px 3px 8px black;
 }
 
 .watch_but:hover
@@ -954,7 +958,7 @@ er-nav li {
   
 	margin:5%;
         width:22%;
-        float:left;
+        float:right;
 }
 .small_box{
 	margin-bottom: 11px;
@@ -1013,12 +1017,25 @@ a{
 li.m_bottom{
 	margin-bottom:0px;
 }
+h4.vremeIzvodjenja, h4.datumIzvodjenja {
+    font-size: 1em;
+    color: white;
+}
+.imePredstaveee {
+    color:white;
+    font-size: 1.5em;
+}
 h4.h-text a{
+	color: #960100;
+	font-size:1em;
+        font-weight: bold;  
+}
+h4.repertoar-text a{
 	color: #960100;
 	font-size:2em;
         font-weight: bold;  
 }
-h4.h-text a:hover{
+h4.h-text a:hover, h4.repertoar-text a:hover{
 	color:white;
 }
 /*--404 page--*/
@@ -1281,7 +1298,7 @@ h4.h-text a:hover{
     height:10%;
 }*/
 }
-@media only screen and (max-width:1600px) and (min-width:1498px) {
+@media only screen and (max-width:1600px) and (min-width:1499px) {
 	.wrap{
 		width:90%;
 	}
@@ -1309,7 +1326,35 @@ h4.h-text a:hover{
 }
   
 }
-@media only screen and (max-width:1498px) and (min-width:1350px) {
+@media only screen and (max-width:1515px) and (min-width:1499px) {
+	.wrap{
+		width:90%;
+	}
+        .header-top {
+		height: 30%;
+	}
+	.nav-wrap
+	{
+		
+                margin-left: 100px;
+		margin-top: 60px;
+	}
+ 
+	.nav-wrap1
+        {
+            margin-top: -40px;
+        }
+        #example-one li { 
+	display: inline-block;	
+	margin-right: 25px;
+}
+	#example-one a {
+		font-size: 13px;
+		padding: 0;	
+}
+  
+}
+@media only screen and (max-width:1499px) and (min-width:1350px) {
 	.wrap{
 		width:90%;
 	}
@@ -1536,8 +1581,10 @@ h4.h-text a:hover{
 }
 .sticky
 {
-    width: 100%;
-   
+    width: 70px;
+    height: 70px;
+    padding-top: 0;
+    margin-top: 120%;
 }
 .OPozTekst
 {
@@ -1560,6 +1607,7 @@ h4.h-text a:hover{
 {
     width: 20%;
 }
+
 }
 @media only screen and (max-width:640px) {
     .navbarMobilni {
@@ -1592,10 +1640,7 @@ h4.h-text a:hover{
 .sticky1{
     margin-top: -68px;
 }
-.sticky{
-    width: 20%;
-	padding-top: 100px;
-}
+
 	.wrap{
 		width:90%;
 	}
@@ -1647,7 +1692,13 @@ h4.h-text a:hover{
 	width: 150px;
 	height: 150px;
 }
-
+.sticky
+{
+    width: 70px;
+    height: 70px;
+    padding-top: 0;
+    margin-top: 100%;
+}
         .vesti{
     display: block;
     float: none;
@@ -2140,8 +2191,10 @@ h4.h-text a:hover{
 	/* padding: 20px 0; */
 }
 .slikaPredstave{
+        border: 1px white solid;
 	width:100%;
 	height:100%;
+        box-shadow: 5px 5px 12px black;
 }
 .opisPredstave, .uloge{
     margin-top:4%;
@@ -2256,7 +2309,8 @@ h4.h-text a:hover{
 }
 
 .celiKomentari{
-    margin-left:15%;
+   margin-left:25%;
+   margin-bottom: 15%;
 }
 .panel-body{
     background:transparent;
@@ -2301,7 +2355,9 @@ a, a:hover, a:active, a:focus {
 
 .divOceni {
     display: inline-block;
-    
+    margin-left: 43%;
+    margin-top: 5%;
+    margin-bottom: 3%;
 }
 .rating { margin: 5%; padding: 0; float:left; clear:both;}
 #lset{ margin: 0; padding: 0; }
@@ -2391,6 +2447,7 @@ a, a:hover, a:active, a:focus {
 }
 .divProsecnaOcena {
     font-size: 30px;
+    margin-right: 100px;
 }
 .divvvOcena {
   
@@ -2410,6 +2467,11 @@ a, a:hover, a:active, a:focus {
     top-margin: 0px;
     width:34px;
     height:34px;
-    background:  url(../images/zvezdica2.png);
+    background:  url(../images/zvezdica1.png);
     float:right;
+}
+.span_3_of_2 h4{
+
+	font-size:1.1em;
+
 }
