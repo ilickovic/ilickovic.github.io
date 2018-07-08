@@ -65,7 +65,7 @@
 	
 	$(window).on('scroll', function(){
 		
-		countCounterUp = enableCounterUp(countCounterUp);
+		$('.f').addClass('w3-animate-bottom');
 	
 	});
 	
