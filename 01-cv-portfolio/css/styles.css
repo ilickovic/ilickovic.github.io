@@ -269,8 +269,34 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 {
 	display: none;
 }
-
+.f1
+{
+	display: none;
+}
+.f2
+{
+	display: none;
+}
+.f3
+{
+	display: none;
+}
 .w3-animate-bottom
 {
-	animation: animatebottom 1.8s; margin-top: 50px; margin-bottom: 50px; max-width: 100%; float: none; display: block;
+	animation: animatebottom 1.4s; margin-top: 50px; margin-bottom: 50px; max-width: 100%; float: none; display: block;
+}
+
+.k1
+{
+	animation: animatebottom 1.6s;
+}
+
+.k2
+{
+	animation: animatebottom 1.8s;
+}
+
+.k3
+{
+	animation: animatebottom 2s;
 }

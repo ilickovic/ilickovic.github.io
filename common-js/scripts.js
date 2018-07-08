@@ -66,7 +66,12 @@
 	$(window).on('scroll', function(){
 		
 		$('.f').addClass('w3-animate-bottom');
-	
+	$('.f1').addClass('w3-animate-bottom');
+	$('.f1').addClass('k1');
+	$('.f2').addClass('w3-animate-bottom');
+	$('.f2').addClass('k2');
+	$('.f3').addClass('w3-animate-bottom');
+	$('.f3').addClass('k3');
 	});
 	
 	
