@@ -470,3 +470,17 @@ body{
     position: relative;
     animation: animatebottom 0.8s;
 }
+
+#c
+{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+@media screen and (max-width:800px){
+	#c
+{
+	display: block;
+	padding-right: 0px;
+}
+}
