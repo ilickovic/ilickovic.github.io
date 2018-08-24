@@ -158,7 +158,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 #mainav ul ul{visibility:hidden; opacity:0;}
 #mainav ul li:hover > ul{visibility:visible; opacity:1;}
 
-#mainav form{display:none; margin:0; padding:0;}
+#mainav form{display:none; margin:0; padding:0; margin-left: 40px;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
 #mainav form select{width:100%; padding:5px; border:1px solid;}
 #mainav form select option{margin:5px; padding:0; border:none;}
@@ -245,7 +245,7 @@ hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#6677BC;}
 .overlay{}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.5);}
 
 .btn, .btn.inverse:hover, a .icon, a.inverse:hover .icon{color:#FFFFFF; background-color:#6677BC; border-color:#6677BC;}
 .btn:hover, .btn.inverse, a:hover .icon, a.inverse .icon{color:inherit; background-color:transparent; border-color:inherit;}
@@ -256,7 +256,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#6677BC;}
 .row1{color:#FFFFFF; background-color:rgba(0,0,0,.3);}
 .row2, .row2 a{}
 .row3{color:#474747; background-color:#FFFFFF;}
-.row4{color:#CBCBCB; background-color:#000000;}
+.row4{}
 .row5, .row5 a{color:#474747;}
 
 .coloured{color:#FFFFFF; background-color:#6677BC;}
@@ -349,11 +349,12 @@ table a, #comments a{background-color:inherit;}
 /* Mobile Devices
 --------------------------------------------------------------------------------------------------------------- */
 @media screen and (max-width:900px){
-	.hoc{max-width:90%;}
+	
 
 	#topbar{}
 
-	#header{padding:30px 0;}
+	#header{padding:0;
+	padding-bottom: 20px;}
 	#header #logo{margin-top:3px;}
 
 	#mainav{}
@@ -386,7 +387,7 @@ table a, #comments a{background-color:inherit;}
 	#topbar div:last-child ul{margin:0;}
 
 	#header{text-align:center;}
-	#header #logo{margin:0 0 15px 0;}
+	#header #logo{margin:0 0 0 0;}
 
 	#introblocks > ul > li{margin-bottom:50px;}
 	#introblocks > ul > li:last-child{margin-bottom:0;}
@@ -435,7 +436,7 @@ table a, #comments a{background-color:inherit;}
 	overflow: hidden;
 	top: 0;
 	left: 0;
-	background-color: black;
+	background-color: #202020;
 }
 
 #video-bg-elem
@@ -445,11 +446,11 @@ table a, #comments a{background-color:inherit;}
 	left: 0;
 	min-height: 100%;
 	min-width: 100%;
-	opacity: 0.5;
+	opacity: 1;
 }
 
 body{
-	height: 100%;
+	min-height: 100%;
 
 	}
 .background-wrap
@@ -470,7 +471,9 @@ body{
     position: relative;
     animation: animatebottom 0.8s;
 }
-
+.w3-container, .w3-panel {
+    padding: 0;
+}
 #c
 {
 	display: inline-block;
