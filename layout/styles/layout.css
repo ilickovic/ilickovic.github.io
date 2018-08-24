@@ -160,7 +160,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 #mainav form{display:none; margin:0; padding:0; margin-left: 40px;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
-#mainav form select{width:100%; padding:5px; border:1px solid;}
+#mainav form select{width:70%; padding:3px; border:1px solid; margin:auto;}
 #mainav form select option{margin:5px; padding:0; border:none;}
 
 /* Breadcrumb */
@@ -480,6 +480,21 @@ body{
 	padding-right: 10px;
 }
 
+.p
+{
+	font-size: 13px;
+}
+
+.brci
+{
+	width: 200px;
+}
+
+.stefan
+{
+	width: 360px;
+}
+
 @media screen and (max-width:800px){
 	#c
 {
@@ -490,6 +505,33 @@ body{
 #video-bg-elem
 {
 	margin-left: -450px;
+	background-color:rgba(0,0,0,.005);
+	opacity: 0.6;
 }
-.row1{background-color:rgba(0,0,0,.005);}
+.row1{background-color:rgba(0,0,0,.005); height: 100%}
+
+.footer
+{
+	height: 100%;
+	position: fixed;
+	bottom: 0;
+}
+.w3-container, .w3-panel {
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+	width: 100%;
+}
+.p
+{
+	font-size: 90%;
+}
+.brci
+{
+	width: 130px;
+}
+.stefan
+{
+	width: 280px;
+}
 }
