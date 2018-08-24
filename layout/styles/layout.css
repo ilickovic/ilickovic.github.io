@@ -486,4 +486,10 @@ body{
 	display: block;
 	padding-right: 0px;
 }
+
+#video-bg-elem
+{
+	margin-left: -450px;
+}
+.row1{background-color:rgba(0,0,0,.005);}
 }
