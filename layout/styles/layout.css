@@ -215,7 +215,7 @@ td{border-width:0 1px;}
 /* Font Awesome Social Icons
 --------------------------------------------------------------------------------------------------------------- */
 .faico{margin:0; padding:0; list-style:none;}
-.faico li{display:inline-block; margin:8px 10px 0 0; padding:0; line-height:normal;}
+.faico li{display:inline-block; margin: 8px 10px 0 0; padding:0; line-height:normal;}
 .faico li:last-child{margin-right:0;}
 .faico a{display:inline-block; width:55px; height:55px; line-height:55px; font-size:18px; text-align:center;}
 
@@ -500,7 +500,7 @@ body{
 @media screen and (max-width:800px){
 	#c
 {
-	display: block;
+	
 	padding-right: 0px;
 }
 
@@ -542,8 +542,18 @@ body{
 	display: inline-block;
 	float: left;
 }
+.faico li {
+    margin: -5px;
+}
 .faico a {
     width: 40px;
     height: 40px;
 }
+}
+
+@media screen and (max-width:360px){
+.p
+{
+	font-size: 10px;
+}	
 }
