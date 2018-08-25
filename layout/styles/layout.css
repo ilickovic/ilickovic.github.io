@@ -360,7 +360,7 @@ table a, #comments a{background-color:inherit;}
 	#topbar{}
 
 	#header{padding:0;
-	padding-bottom: 2px;}
+	}
 	#header #logo{margin-top:3px;}
 
 	#mainav{}
@@ -495,7 +495,7 @@ body{
 {
 	width: 100px;
 	margin-left: 25%;
-
+	float: left;
 }
 
 .stefan
@@ -503,8 +503,30 @@ body{
 	width: 260px;
 }
 
+.slicknav_menu {
+	display:none;
+	float: left;
+	margin-left: 10%;
+}
+
+@media screen and (min-width:800px){
+.navbar-inverse {
+    background: none;
+	border: none;
+	right: 0;
+	position: fixed;
+
+}
+}
+
 @media screen and (max-width:800px){
-	#c
+	
+.navbar-inverse {
+    background: none;
+	border: none;
+	margin: 0;
+}
+#c
 {
 	
 	padding-right: 0px;
@@ -540,9 +562,10 @@ body{
 }
 .brci
 {
-	width: 15%;
-	margin-left: 5%;
+	width: 14%;
+	margin-left: 7%;
 	margin-right: 0;
+	margin-top: 10px;
 	display: inline-block;
 	float: left;
 }
@@ -551,6 +574,8 @@ body{
 	width: 35%;
 	display: inline-block;
 	float: left;
+	margin-top: 10px;
+	margin-left: 7px;
 }
 .faico li {
     margin-left: -2px;
@@ -592,4 +617,11 @@ body{
 {
 	font-size: 60%;
 }	
+}
+
+@media (max-width: 767px)
+{
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    text-align: center;
+}
 }
