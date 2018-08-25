@@ -160,7 +160,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 #mainav form{display:none; margin:0; padding:0; margin-left: 40px;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
-#mainav form select{width:70%; padding:3px; border:1px solid; margin:auto;}
+#mainav form select{width:50px; padding:3px; border:1px solid; margin:auto; margin-top: 10px; margin-right: 0;}
 #mainav form select option{margin:5px; padding:0; border:none;}
 
 /* Breadcrumb */
@@ -354,7 +354,7 @@ table a, #comments a{background-color:inherit;}
 	#topbar{}
 
 	#header{padding:0;
-	padding-bottom: 20px;}
+	padding-bottom: 2px;}
 	#header #logo{margin-top:3px;}
 
 	#mainav{}
@@ -487,12 +487,14 @@ body{
 
 .brci
 {
-	width: 200px;
+	width: 100px;
+	margin-left: 25%;
+	margin-right: 10%;
 }
 
 .stefan
 {
-	width: 360px;
+	width: 260px;
 }
 
 @media screen and (max-width:800px){
@@ -506,7 +508,7 @@ body{
 {
 	margin-left: -450px;
 	background-color:rgba(0,0,0,.005);
-	opacity: 0.6;
+	opacity: 1;
 }
 .row1{background-color:rgba(0,0,0,.005); height: 100%}
 
@@ -528,10 +530,19 @@ body{
 }
 .brci
 {
-	width: 130px;
+	width: 60px;
+	margin-left: 5%;
+	display: inline-block;
+	float: left;
 }
 .stefan
 {
-	width: 280px;
+	width: 140px;
+	display: inline-block;
+	float: left;
+}
+.faico a {
+    width: 40px;
+    height: 40px;
 }
 }

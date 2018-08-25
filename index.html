@@ -47,7 +47,7 @@ Licence URI: http://www.os-templates.com/template-terms
       <div id="logo" class="fl_left">
         <h1><a href="index.html"><img src="images/stefan.png" class="stefan "style="top: 0"/></a></h1>
       </div>
-	  <img src="images/brci.png" class="brci" style="margin-left: 15%; margin-right: 10%; "/>
+	  <img src="images/brci.png" class="brci"/>
       <nav id="mainav" class="fl_right">
         <ul class="clear">
           <li class="active"><a href="index.html" style="font-family: 'Arima Madurai', cursive;  font-size: 18px;">Home</a></li>
@@ -151,29 +151,5 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
 <script src="layout/scripts/jquery.flexslider-min.js"></script>
 
-<script src="canvas-video-player.js"></script>
-<script>
 
-var isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
-
-if (isIOS) {
-
-    var canvasVideo = new CanvasVideoPlayer({
-        videoSelector: '.video',
-        canvasSelector: '.canvas',
-        timelineSelector: false,
-        autoplay: true,
-        makeLoop: true,
-        pauseOnClick: false,
-        audio: false
-    });
-
-}else {
-
-    // Use HTML5 video
-    document.querySelectorAll('.canvas')[0].style.display = 'none';
-
-}   
-
-</script>
 </html>
