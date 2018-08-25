@@ -543,7 +543,7 @@ body{
 	float: left;
 }
 .faico li {
-    margin: -5px;
+    margin: -4px;
 }
 .faico a {
     width: 40px;
@@ -554,6 +554,9 @@ body{
 @media screen and (max-width:360px){
 .p
 {
-	font-size: 10px;
+	font-size: 80%;
 }	
+.faico li {
+    margin: -5px;
+}
 }
