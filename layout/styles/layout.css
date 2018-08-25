@@ -217,7 +217,7 @@ td{border-width:0 1px;}
 .faico{margin:0; padding:0; list-style:none;}
 .faico li{display:inline-block; margin: 8px 10px 0 0; padding:0; line-height:normal;}
 .faico li:last-child{margin-right:0;}
-.faico a{display:inline-block; width:55px; height:55px; line-height:55px; font-size:18px; text-align:center;}
+.faico a{display:inline-block; width:50px; height:50px; line-height:50px; font-size:18px; text-align:center;}
 
 .faico a:hover{color:#FFFFFF;}
 
@@ -258,6 +258,12 @@ input:focus, textarea:focus, *:required:focus{border-color:#6677BC;}
 .row3{color:#474747; background-color:#FFFFFF;}
 .row4{}
 .row5, .row5 a{color:#474747;}
+
+.row11
+{
+	color:#FFFFFF; background-color:rgba(0,0,0,.3);
+	
+}
 
 .coloured{color:#FFFFFF; background-color:#6677BC;}
 .coloured .btn{color:inherit; background-color:transparent; border-color:inherit;}
@@ -504,6 +510,10 @@ body{
 	padding-right: 0px;
 }
 
+.row11{
+	height: 80px;
+}
+
 #video-bg-elem
 {
 	margin-left: -450px;
@@ -543,12 +553,12 @@ body{
 	float: left;
 }
 .faico li {
-    margin-left: -6px;
+    margin-left: -2px;
 	margin-right: 0;
 }
 .faico a {
-    width: 40px;
-    height: 40px;
+    width: 37px;
+    height: 37px;
 }
 }
 
@@ -558,6 +568,17 @@ body{
 	font-size: 80%;
 }	
 .faico li {
-    margin: -5px;
+    margin: -1%;
 }
+}
+
+@media screen and (max-width:360px){
+.faico a {
+    width: 30px;
+    height: 30px;
+}
+.p
+{
+	font-size: 60%;
+}	
 }
