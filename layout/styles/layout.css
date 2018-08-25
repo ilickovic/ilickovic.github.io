@@ -543,7 +543,8 @@ body{
 	float: left;
 }
 .faico li {
-    margin: -4px;
+    margin-left: -6px;
+	margin-right: 0;
 }
 .faico a {
     width: 40px;
