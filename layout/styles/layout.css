@@ -557,8 +557,8 @@ body{
 	margin-right: 0;
 }
 .faico a {
-    width: 37px;
-    height: 37px;
+    width: 35px;
+    height: 35px;
 }
 }
 
@@ -568,9 +568,20 @@ body{
 	font-size: 80%;
 }	
 .faico li {
+    margin: -1px;
+}
+}
+
+@media screen and (max-width:340px){
+.p
+{
+	font-size: 80%;
+}	
+.faico li {
     margin: -3px;
 }
 }
+
 
 @media screen and (max-width:320px){
 .faico a {
