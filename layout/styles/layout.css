@@ -625,3 +625,16 @@ body{
     text-align: center;
 }
 }
+
+
+@media screen and (min-width:800px){
+.dropdown-menu {
+
+    background-color: rgba(0,0,0,.5);
+
+}
+.dropdown-menu>li>a {
+    color: white;
+	padding: 7px 20px;
+}
+}
