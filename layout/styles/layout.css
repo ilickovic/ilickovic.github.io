@@ -160,7 +160,7 @@ nav ul, nav ol{margin:0; padding:0; list-style:none;}
 
 #mainav form{display:none; margin:0; padding:0; margin-left: 40px;}
 #mainav form select, #mainav form select option{display:block; cursor:pointer; outline:none;}
-#mainav form select{width:50px; padding:3px; border:1px solid; margin:auto; margin-top: 10px; margin-right: 0;}
+#mainav form select{width:20%; padding:3px; border:1px solid; margin:auto; margin-top: 10px; margin-right: 10px;}
 #mainav form select option{margin:5px; padding:0; border:none;}
 
 /* Breadcrumb */
@@ -303,7 +303,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#6677BC;}
 #mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#DAA520;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(0,0,0,.6); border-color:rgba(0,0,0,.6);}
 #mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#DAA520;}
-#mainav form select{color:#FFFFFF; background-color:#000000; border-color:rgba(136,136,136,.5);/* #888888 */}
+#mainav form select{color:#FFFFFF; background-color:#000000; border-color:rgba(136,136,136,.5); float: left; position: fixed; right: 0;/* #888888 */}
 
 #breadcrumb ul{border-color:rgba(255,255,255,.2);}
 #breadcrumb a{color:inherit; background-color:inherit;}
@@ -489,7 +489,7 @@ body{
 {
 	width: 100px;
 	margin-left: 25%;
-	margin-right: 10%;
+
 }
 
 .stefan
@@ -530,14 +530,15 @@ body{
 }
 .brci
 {
-	width: 60px;
+	width: 15%;
 	margin-left: 5%;
+	margin-right: 0;
 	display: inline-block;
 	float: left;
 }
 .stefan
 {
-	width: 140px;
+	width: 35%;
 	display: inline-block;
 	float: left;
 }
