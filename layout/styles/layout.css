@@ -572,7 +572,7 @@ body{
 }
 }
 
-@media screen and (max-width:360px){
+@media screen and (max-width:320px){
 .faico a {
     width: 30px;
     height: 30px;
