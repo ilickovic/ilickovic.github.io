@@ -36,7 +36,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin:0 0 0 0;}
+#header #logo{margin:20px; margin-right: 0;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
 
 
@@ -215,9 +215,9 @@ td{border-width:0 1px;}
 /* Font Awesome Social Icons
 --------------------------------------------------------------------------------------------------------------- */
 .faico{margin:0; padding:0; list-style:none;}
-.faico li{display:inline-block; margin: 8px 10px 0 0; padding:0; line-height:normal;}
+.faico li{display:inline-block; margin: 0 10px 0 0; padding:0; line-height:normal;}
 .faico li:last-child{margin-right:0;}
-.faico a{display:inline-block; width:50px; height:50px; line-height:50px; font-size:18px; text-align:center;}
+.faico a{display:inline-block; width:40px; height:40px; line-height:40px; font-size:18px; text-align:center;}
 
 .faico a:hover{color:#FFFFFF;}
 
@@ -496,6 +496,7 @@ body{
 	width: 100px;
 	margin-left: 25%;
 	float: left;
+	margin-top: 20px;
 }
 
 .stefan
@@ -503,10 +504,7 @@ body{
 	width: 260px;
 }
 
-.stefan1
-{
-	display: none;
-}
+
 
 .slicknav_menu {
 	display:none;
@@ -520,7 +518,8 @@ body{
 	border: none;
 	right: 0;
 	position: fixed;
-
+	margin-top: 20px;
+	margin-right: 20px;
 }
 }
 
@@ -568,23 +567,20 @@ body{
 .brci
 {
 	width: 14%;
-	margin-left: 20%;
+	margin-left: 9%;
 	margin-right: 0;
-	margin-top: 10px;
+	margin-top: 15px;
 	display: inline-block;
 	float: left;
 }
+
 .stefan
 {
-	display: none;
-}
-.stefan1
-{
-	width: 22%;
+	width: 33%;
 	display: inline-block;
 	float: left;
-	margin-top: 2px;
-	margin-left: 7px;
+	margin-top: 15px;
+	margin-left: 4px;
 }
 .faico li {
     margin-left: -2px;
@@ -633,7 +629,11 @@ body{
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
     text-align: center;
 }
+.navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a {
+    padding: 5px 15px 5px 15px;
 }
+}
+
 
 
 @media screen and (min-width:800px){
@@ -644,6 +644,18 @@ body{
 }
 .dropdown-menu>li>a {
     color: white;
-	padding: 7px 20px;
+	padding: 10px 20px;
 }
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: white;
+    background: none;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 20px;
+}
+
+.navbar-nav>li {
+
+    margin-right: 5px;
 }
