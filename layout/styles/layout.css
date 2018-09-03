@@ -107,7 +107,7 @@ File: Layout CSS
 
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
-#footer{padding:10px 0; text-align:center;}
+#footer{padding-bottom: 10px; padding-top: 4px; padding-left: 0; padding-right:0; text-align:center;}
 
 #footer .heading, #footer ul{margin-bottom:30px;}
 #footer > ul:last-of-type{margin-bottom:0;}
@@ -217,7 +217,7 @@ td{border-width:0 1px;}
 .faico{margin:0; padding:0; list-style:none;}
 .faico li{display:inline-block; margin: 0 10px 0 0; padding:0; line-height:normal;}
 .faico li:last-child{margin-right:0;}
-.faico a{display:inline-block; width:40px; height:40px; line-height:40px; font-size:18px; text-align:center;}
+.faico a{display:inline-block; width:30px; height:30px; line-height:40px; font-size:18px; text-align:center;}
 
 .faico a:hover{color:#FFFFFF;}
 
@@ -516,8 +516,7 @@ body{
 .navbar-inverse {
     background: none;
 	border: none;
-	right: 0;
-	position: fixed;
+	float: right;
 	margin-top: 20px;
 	margin-right: 20px;
 }
@@ -664,4 +663,196 @@ body{
 .navbar-nav>li {
 
     margin-right: 5px;
+}
+
+.krasa
+{
+	width: 50%;
+	border: 1px black solid;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-right: 5%;
+	float: left;
+	display: inline;
+}
+
+.bio
+{
+	color: black;
+	width: 55%;
+	background-image: url("../../images/papir1.png");
+	background-size: 100% 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 12%;
+	padding-bottom: 17%;
+	font-size: 11px;
+	font-weight: 600;
+	display: block;
+	margin: auto;
+	text-align: justify;
+}
+
+.milica
+{
+	color: black;
+	float: none;
+	display: block;
+	font-size: 11px;
+	float: right;
+}
+
+@media screen and (max-width:1200px){
+.bio
+{
+
+	width: 70%;
+
+}
+
+.krasa
+{
+	width: 40%;
+}
+}
+
+@media screen and (max-width:1000px){
+.bio
+{
+	
+	width: 80%;
+	padding-top: 15%;
+		padding-bottom: 25%;
+}
+
+.krasa
+{
+	width: 35%;
+
+}
+}
+
+
+@media screen and (max-width:700px){
+.bio
+{
+	
+	width: 80%;
+	padding-top: 18%;
+		padding-bottom: 30%;
+}
+
+.krasa
+{
+	width: 35%;
+
+}
+}
+
+
+@media screen and (max-width:640px){
+.bio
+{
+	
+	width: 90%;
+	padding-top: 20%;
+}
+
+.krasa
+{
+	width: 35%;
+
+}
+}
+
+
+@media screen and (max-width:550px){
+.bio
+{
+	
+	width: 100%;
+	padding-top: 25%;
+	padding-bottom: 30%;
+	font-size: 10px;
+	padding-left: 15%;
+	padding-right: 15%;
+	background-image: url("../../images/papir3.png");
+	
+}
+
+.krasa
+{
+	width: 50%;
+	display: block;
+	clear: both;
+
+}
+}
+
+@media screen and (max-width:480px){
+.bio
+{
+	
+	width: 100%;
+	padding-top: 23%;
+	padding-bottom: 30%;
+	font-size: 10px;
+		padding-left: 17%;
+	padding-right: 17%;
+	
+}
+
+.krasa
+{
+	width: 50%;
+	display: block;
+	clear: both;
+
+}
+}
+
+@media screen and (max-width:410px){
+.bio
+{
+	
+	width: 100%;
+	padding-top: 26%;
+	padding-bottom: 33%;
+	font-size: 10px;
+		padding-left: 15%;
+	padding-right: 15%;
+	
+}
+
+.krasa
+{
+	width: 50%;
+	display: block;
+	clear: both;
+
+}
+}
+
+
+@media screen and (max-width:380px){
+.bio
+{
+	
+	width: 100%;
+	padding-top: 35%;
+	padding-bottom: 40%;
+	font-size: 10px;
+		padding-left: 16%;
+	padding-right: 16%;
+	
+}
+
+.krasa
+{
+	width: 50%;
+	display: block;
+	clear: both;
+
+}
 }
