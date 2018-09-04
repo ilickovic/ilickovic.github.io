@@ -989,6 +989,10 @@ iframe {
 }
 
 @media screen and (max-width:500px){
+#sergej1
+{
+		margin-top: 0;
+}
 #sergej2
 {
 		margin-top: 0;
