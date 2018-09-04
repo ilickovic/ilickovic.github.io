@@ -876,9 +876,10 @@ body{
 .spot
 {
 	margin: 50px;
-	margin-left: 80px;
-	margin-right: 0;
+	margin-left: 65px;
+	margin-right: 40px;
 	float: left;
+	width: 25%;
 }
 
 .spotP
@@ -888,6 +889,7 @@ body{
 	display: block;
 	margin: auto;
 	margin-bottom: 5px;
+	font-size: 12px;
 }
 
 @media screen and (max-width:400px){
