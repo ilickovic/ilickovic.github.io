@@ -876,7 +876,7 @@ body{
 .spot
 {
 	margin: 50px;
-	margin-left: 70px;
+	margin-left: 80px;
 	margin-right: 0;
 	float: left;
 }
@@ -887,6 +887,7 @@ body{
 	font-weight: 400;
 	display: block;
 	margin: auto;
+	margin-bottom: 5px;
 }
 
 @media screen and (max-width:400px){
