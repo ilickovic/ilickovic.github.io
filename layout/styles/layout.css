@@ -879,7 +879,6 @@ body{
 	margin-left: 65px;
 	margin-right: 40px;
 	float: left;
-	width: 25%;
 }
 
 .spotP
@@ -898,3 +897,11 @@ body{
 		margin-left: 10px;
 	}
 }
+
+@media screen and (min-width:1380px){
+.spot
+{	
+	width: 20%;
+}
+}
+
