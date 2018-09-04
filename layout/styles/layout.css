@@ -857,3 +857,41 @@ body{
 
 }
 }
+
+#m
+{
+	display: none;
+}
+@media screen and (max-width:800px){
+	#d
+	{
+		display: none;
+	}
+	#m
+	{
+		display: block;
+	}
+}
+
+.spot
+{
+	margin: 50px;
+	margin-left: 70px;
+	margin-right: 0;
+	float: left;
+}
+
+.spotP
+{
+	color: white;
+	font-weight: 400;
+	display: block;
+	margin: auto;
+}
+
+@media screen and (max-width:400px){
+	.spot
+	{
+		margin-left: 5px;
+	}
+}
