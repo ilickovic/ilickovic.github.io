@@ -739,7 +739,7 @@ body{
 	color: black;
 	float: none;
 	display: block;
-	font-size: 11px;
+	font-size: 12px;
 	float: right;
 }
 
@@ -942,7 +942,7 @@ body{
 
 .spot
 {	
-	width: 33.3%;
+	width: 33.333%;
 	margin: 0;
 	margin-bottom: -6px;
 }
@@ -975,32 +975,61 @@ iframe {
 	margin: 0;
 }
 
-#sergej1
+#prviRed
 {
-		margin-top: 30px;
-}
-#sergej2
-{
-		margin-top: 30px;
-}
-#sergej3
-{
-		margin-top: 30px;
+		margin-top: 50px;
 }
 
+.kategorija
+{
+	display: block;
+	margin: auto;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 0;
+	color: white;
+	font-size: 26px;
+}
+
+.biografija 
+{
+	font-size: 12px;
+}
+
+
+
 @media screen and (max-width:500px){
-#sergej1
+#prviRed
 {
 		margin-top: 0;
 }
-#sergej2
+
+.kategorija
 {
-		margin-top: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
 }
-#sergej3
+
+.biografija
 {
-		margin-top: 0;
+	font-size: 11px;
 }
+
+.milica
+{
+	font-size: 11px;
 }
+
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: white;
+	color: black;
+    outline: 0;
+}
+
 
 
