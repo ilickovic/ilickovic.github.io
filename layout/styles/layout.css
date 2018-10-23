@@ -587,9 +587,9 @@ body{
 
 #video-bg-elem
 {
-	margin-left: -450px;
-	background-color:rgba(0,0,0,.005);
+	background-color: black;
 	opacity: 1;
+	width: 100%;
 }
 .row1{background-color:rgba(0,0,0,.005); height: 100%}
 
@@ -611,10 +611,10 @@ body{
 }
 .brci
 {
-	width: 10%;
-	margin-left: 6%;
+	width: 20%;
+	margin-left: -10px;
 	margin-right: 0;
-	margin-top: 18px;
+	margin-top: 80px;
 	display: inline-block;
 	float: left;
 }
@@ -625,7 +625,7 @@ body{
 	display: inline-block;
 	float: left;
 	margin-top: 15px;
-	margin-left: 4px;
+	margin-left: 20px;
 }
 .faico li {
     margin-left: -2px;
@@ -1054,6 +1054,10 @@ iframe {
 }
 
 
+.ines
+{
+	height: 40px;
+}
 
 
 
@@ -1085,6 +1089,11 @@ iframe {
 	font-size: 11px;
 }
 
+.ines
+{
+	height: 30px;
+}
+
 }
 
 .dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
@@ -1095,5 +1104,8 @@ iframe {
     outline: 0;
 }
 
-
+.navbar-toggle
+{
+	margin-right: 25px;
+}
 
