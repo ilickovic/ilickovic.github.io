@@ -107,7 +107,7 @@ File: Layout CSS
 
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
-#footer{padding-bottom: 10px; padding-top: 4px; padding-left: 0; padding-right:0; text-align:center;}
+#footer{padding-bottom: 5px; padding-top: 4px; padding-left: 0; padding-right:0; text-align:center;}
 
 #footer .heading, #footer ul{margin-bottom:30px;}
 #footer > ul:last-of-type{margin-bottom:0;}
@@ -376,7 +376,7 @@ table a, #comments a{background-color:inherit;}
 	#footer{}
 
 	#copyright{}
-	#copyright p:first-of-type{margin-bottom:10px;}
+	#copyright p:first-of-type{margin-bottom:5px;}
 }
 
 
@@ -611,8 +611,8 @@ body{
 }
 .brci
 {
-	width: 20%;
-	margin-left: -10px;
+	width: 15%;
+	margin-left: 0;
 	margin-right: 0;
 	margin-top: 50px;
 	display: inline-block;
