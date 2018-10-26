@@ -107,7 +107,7 @@ File: Layout CSS
 
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
-#footer{padding-bottom: 5px; padding-top: 4px; padding-left: 0; padding-right:0; text-align:center;}
+#footer{padding-bottom: 10px; padding-top: 4px; padding-left: 0; padding-right:0; text-align:center;}
 
 #footer .heading, #footer ul{margin-bottom:30px;}
 #footer > ul:last-of-type{margin-bottom:0;}
@@ -705,12 +705,18 @@ body{
     margin-right: 5px;
 }
 
+.braon
+{
+	width: 70px;
+	display: block;
+	margin: auto;
+}
+
 .krasa
 {
 	width: 50%;
-	border: 1px black solid;
 	margin-bottom: 1%;
-	margin-top: 1%;
+	margin-top: 40px;
 	margin-left: 1%;
 	margin-right: 5%;
 	float: left;
@@ -785,8 +791,11 @@ body{
 
 .krasa
 {
-	width: 35%;
-
+	width: 70%;
+	margin-left: 13%;
+	margin-right: 10%;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 }
 
@@ -799,15 +808,11 @@ body{
 	padding-top: 20%;
 }
 
-.krasa
-{
-	width: 35%;
 
 }
-}
 
 
-@media screen and (max-width:550px){
+@media screen and (max-width:700px){
 .bio
 {
 	
@@ -821,13 +826,7 @@ body{
 	
 }
 
-.krasa
-{
-	width: 50%;
-	display: block;
-	clear: both;
 
-}
 }
 
 @media screen and (max-width:480px){
@@ -843,13 +842,7 @@ body{
 	
 }
 
-.krasa
-{
-	width: 50%;
-	display: block;
-	clear: both;
 
-}
 }
 
 @media screen and (max-width:410px){
@@ -865,13 +858,7 @@ body{
 	
 }
 
-.krasa
-{
-	width: 50%;
-	display: block;
-	clear: both;
 
-}
 }
 
 
@@ -889,13 +876,7 @@ body{
 	background-image: url("../../images/papir4.png");
 }
 
-.krasa
-{
-	width: 50%;
-	display: block;
-	clear: both;
 
-}
 }
 
 #m
@@ -948,6 +929,8 @@ body{
 .biografija 
 {
 	font-size: 12px;
+	margin-top: 40px;
+	margin-bottom: 0;
 }
 
 #prviRed
