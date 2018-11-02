@@ -572,7 +572,7 @@ body{
 
 #el
 {
-	font-size: 13px;
+	font-size: 18px;
 }
 
 #c
@@ -748,6 +748,7 @@ body{
 	display: block;
 	font-size: 12px;
 	float: right;
+	font-family: 'Prata', serif;
 }
 
 @media screen and (max-width:1200px){
@@ -943,6 +944,7 @@ body{
 	font-size: 12px;
 	margin-top: 40px;
 	margin-bottom: 0;
+	font-family: 'Prata', serif;
 }
 
 #prviRed
@@ -1106,3 +1108,7 @@ iframe {
 	margin-bottom: 28px;
 }
 
+#el
+{
+	font-size: 16px;
+}
