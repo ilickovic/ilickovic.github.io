@@ -735,7 +735,7 @@ body{
 	padding-top: 12%;
 	padding-bottom: 17%;
 	font-size: 11px;
-	font-weight: 600;
+	font-style: black;
 	display: block;
 	margin: auto;
 	text-align: justify;
@@ -748,7 +748,7 @@ body{
 	display: block;
 	font-size: 12px;
 	float: right;
-	font-family: 'Neucha', cursive;
+	font-family: 'Roboto', black;
 }
 
 @media screen and (max-width:1200px){
@@ -937,7 +937,6 @@ body{
 	margin-bottom: 0;
 	color: white;
 	font-size: 26px;
-	font-family: 'Neucha', cursive;
 }
 
 .biografija 
@@ -945,7 +944,7 @@ body{
 	font-size: 12px;
 	margin-top: 40px;
 	margin-bottom: 0;
-	font-family: 'Neucha', cursive;
+	font-family: 'Roboto', sans-serif;
 }
 
 #prviRed
