@@ -361,7 +361,7 @@ table a, #comments a{background-color:inherit;}
 
 	#header{padding:0;
 	}
-	#header #logo{margin-top:3px;}
+	/* #header #logo{margin-top:3px;} */
 
 	#mainav{}
 	#mainav ul{display:none;}
@@ -541,7 +541,7 @@ body{
 {
 	.brci
 	{
-		margin-left:6%;
+		margin-left:9%;
 		width: 80px;
 	}
 	
@@ -558,7 +558,7 @@ body{
 	border: none;
 	float: right;
 	margin-top: 20px;
-	margin-right: 90px;
+	margin-right: 6%;
 }
 }
 
@@ -1103,7 +1103,7 @@ iframe {
 
 .navbar-toggle
 {
-	margin-right: 50px;
+	margin-right: 60px;
 	margin-top: 15px;
 	margin-bottom: 28px;
 }
@@ -1114,14 +1114,14 @@ iframe {
 }
 
 .language {
-	width:20px; position: fixed; right: 0; top: 0; margin-right: 80px; margin-top: 32px;
+	width:20px; position: fixed; right: 0; top: 0; margin-right: 5%; margin-top: 32px;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:760px){
 	.language 
 	{
 		margin-top: 20px;
-		margin-right: 10px;
+		margin-right: 20px;
 	}
 }
 
@@ -1159,3 +1159,61 @@ iframe {
 		margin-left: 30%;
 	}
 }
+
+@media screen and (max-width:1070px){
+	#el {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:1030px){
+	.stefan {
+		width: 230px;
+	}
+}
+
+@media screen and (max-width:900px){
+	#el {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width:850px){
+	.stefan {
+		margin-left: 3%;
+	}
+	.brci {
+		margin-left: 6%;
+	}
+}
+
+@media screen and (max-width:830px){
+	.stefan {
+		margin-left: 1%;
+	}
+	.brci {
+		margin-left: 3%;
+	}
+}
+
+@media screen and (max-width:770px) and (min-width:750px){
+	.stefan {
+		margin-top: 0;
+	}
+	
+}
+
+@media screen and (max-width:750px) and (min-width:600px){
+		.brci {
+		margin-left: 10%;
+	}
+	
+}
+
+
+@media screen and (max-width:800px) and (min-width:550px){
+	
+#footer > ul:last-of-type{margin-bottom:-5px;}
+	
+}
+
