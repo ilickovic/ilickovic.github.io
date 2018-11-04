@@ -36,7 +36,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin:20px; margin-right: 0;}
+#header #logo{margin:20px; margin-right: 0;  margin-left: 6%;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
 
 
@@ -494,7 +494,7 @@ body{
 .brci
 {
 	width: 100px;
-	margin-left: 25%;
+	margin-left: 21%;
 	float: left;
 	margin-top: 20px;
 }
@@ -558,7 +558,7 @@ body{
 	border: none;
 	float: right;
 	margin-top: 20px;
-	margin-right: 20px;
+	margin-right: 90px;
 }
 }
 
@@ -1103,12 +1103,59 @@ iframe {
 
 .navbar-toggle
 {
-	margin-right: 30px;
+	margin-right: 50px;
 	margin-top: 15px;
 	margin-bottom: 28px;
 }
 
 #el
 {
-	font-size: 16px;
+	font-size: 17px;
+}
+
+.language {
+	width:20px; position: fixed; right: 0; top: 0; margin-right: 80px; margin-top: 32px;
+}
+
+@media screen and (max-width:500px){
+	.language 
+	{
+		margin-top: 20px;
+		margin-right: 10px;
+	}
+}
+
+@media screen and (min-width:1280px) and (max-width:1500px){
+	.brci 
+	{
+		margin-left: 22%;
+	}
+}
+
+@media screen and (min-width:1500px) and (max-width:1700px){
+	.brci 
+	{
+		margin-left: 24%;
+	}
+}
+
+@media screen and (min-width:1700px) and (max-width:1900px){
+	.brci 
+	{
+		margin-left: 26%;
+	}
+}
+
+@media screen and (min-width:1900px) and (max-width:2100px){
+	.brci 
+	{
+		margin-left: 28%;
+	}
+}
+
+@media screen and (min-width:2100px){
+	.brci 
+	{
+		margin-left: 30%;
+	}
 }
