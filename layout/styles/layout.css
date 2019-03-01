@@ -36,7 +36,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #header{}
 
-#header #logo{margin:20px; margin-right: 0;  margin-left: 6%;}
+#header #logo{margin:20px; margin-right: 0;  margin-left: 16%;}
 #header #logo h1{margin:0; padding:0; font-size:22px; text-transform:uppercase;}
 
 
@@ -1345,7 +1345,6 @@ iframe {
 	  opacity: 1;
 	  position: absolute;
 	  top: auto;
-	  right: auto;
 	  bottom: 10px;
 	  left: 10px;
 	  font-size: 14px;
@@ -1353,4 +1352,33 @@ iframe {
 
 }
 
+@media (min-width: 768px)
+{
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 70px;
+    margin-left: 0;
+}
+}
+
+@media (min-width: 1500px)
+{
+	#header #logo {
+    margin-left: 20%;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 90px;
+    margin-left: 0;
+}
+}
+
+@media (min-width: 1700px)
+{
+	#header #logo {
+    margin-left: 23%;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 180px;
+    margin-left: 0;
+}
+}
 
