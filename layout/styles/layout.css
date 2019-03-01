@@ -1348,6 +1348,7 @@ iframe {
 	  bottom: 10px;
 	  left: 10px;
 	  font-size: 14px;
+	  text-shadow: 1px 1px 3px black;
 }
 
 }
@@ -1377,7 +1378,7 @@ iframe {
     margin-left: 23%;
 }
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    margin-right: 180px;
+    margin-right: 240px;
     margin-left: 0;
 }
 }
