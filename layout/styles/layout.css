@@ -239,7 +239,7 @@ td{border-width:0 1px;}
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
 body{color:#474747; background-color:#FFFFFF;}
-a{color:#6677BC;}
+a{color:transparent;}
 a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}
 label span{color:#FF0000; background-color:inherit;}
@@ -1383,4 +1383,51 @@ iframe {
 }
 }
 
+.poster
+{
+	width: 30%;
+	padding-left: 5%;
+	padding-top: 8%;
+	padding-bottom: 5%;
+	display: inline-block;
+}
+.tip
+{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: right;
+	color: white;
+	display: block;
+	clear: both;
+}
 
+.naslovFilma
+{
+	font-size: 56px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	float: right;
+	color: white;
+	display: block;
+	clear: both;
+}
+
+.oFilmu
+{
+	width: 69%;
+	display: inline-block;
+	padding-left: 10%;
+	padding-top: 8%;
+	padding-bottom: 5%;
+	position: absolute;
+}
+
+.laureat
+{
+	width: 18.5%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 3%;
+}
