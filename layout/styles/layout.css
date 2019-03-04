@@ -1491,12 +1491,15 @@ iframe {
 .ikoniceFilm
 {
 	width: 100%;
-	padding-left: 10%;
+	right: 0;
 }
 .jednaIkonica
 {
-    width: 13%;
+    width: 13.2%;
 	margin-left: 3%;
     margin-right: 3%;
+}
+.container {
+    padding: 50px 0;
 }
 }
