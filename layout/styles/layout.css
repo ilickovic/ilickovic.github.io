@@ -321,7 +321,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#6677BC;}
 .pagination a, .pagination strong{border-color:#D7D7D7;}
 .pagination .current *{color:#FFFFFF; background-color:#6677BC;}
 
-#backtotop{color:#FFFFFF; background-color:#6677BC;}
+#backtotop{color:#FFFFFF; background-color:#767676;}
 
 
 /* Tables + Comments */
@@ -1445,7 +1445,7 @@ iframe {
 
 .ekipa
 {
-	width: 67%; color: white; font-size: 16px; margin-top: 40px; display: inline-block;
+	width: 77%; color: white; font-size: 16px; margin-top: 40px; display: inline-block;
 }
 .jednaIkonica
 {
