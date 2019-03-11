@@ -1402,6 +1402,7 @@ iframe {
 	display: block;
 	clear: both;
 	font-weight: 100;
+	text-align: right;
 }
 
 .naslovFilma
@@ -1413,6 +1414,8 @@ iframe {
 	color: white;
 	display: block;
 	clear: both;
+	line-height: 1.0;
+	text-align: right;
 }
 
 .oFilmu
@@ -1421,7 +1424,7 @@ iframe {
 	display: inline-block;
 	padding-left: 10%;
 	padding-top: 8%;
-	padding-bottom: 5%;
+	padding-bottom: 10%;
 	position: absolute;
 }
 
@@ -1436,11 +1439,6 @@ iframe {
 .ikoniceFilm
 {
 	width: 40px; position: absolute; right: 0; display: inline-block; margin-top: 40px;
-}
-
-.trejler
-{
-	width: 100%; height: 585px; margin-top: 50px;
 }
 
 .ekipa
@@ -1479,11 +1477,7 @@ iframe {
 {
 	right: 30px;
 }
-.trejler
-{
-	height: 300px;
-	margin-top: 100px;
-}
+
 .ekipa
 {
 	width: 100%;
