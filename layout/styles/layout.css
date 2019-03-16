@@ -975,14 +975,15 @@ body{
 
 .spot
 {	
-	width: 32.9vw;
-	height: 14vw;
+	/* width: 32.9vw; */
+	width: 33.3%;
 	margin: 0;
 	margin-bottom: -6px;
 }
 .spot1
 {	
-	width: 32.9vw;
+	/* width: 32.9vw; */
+	width: 33.3%;
 	margin: 0;
 	margin-bottom: -6px;
 }
@@ -1004,55 +1005,55 @@ body{
 @media screen and (min-width:1280px) and (max-width:1400px){
 	.spot
 	{
-		width: 33.1vw;
+		width: 33.33%
 	}
 		.spot1
 	{
-		width: 33.1vw;
+		width: 33.33%;
 	}
 }
 
 @media screen and (min-width:1280px) and (max-width:1400px){
 	.spot
 	{
-		width: 32.8vw;
+		width: 33.33%;
 	}
 		.spot1
 	{
-		width: 32.8vw;
+		width: 33.33%;
 	}
 }
 
 @media screen and (min-width:1000px) and (max-width:1280px){
 	.spot
 	{
-		width: 32.7vw;
+		width: 33.33%;
 	}
 		.spot1
 	{
-		width: 32.7vw;
+		width: 33.33%;
 	}
 }
 
 @media screen and (min-width:850px) and (max-width:1000px){
 	.spot
 	{
-		width: 32.5vw;
+		width: 33.33%;
 	}
 		.spot1
 	{
-		width: 32.5vw;
+		width: 33.33%;
 	}
 }
 
 @media screen and (min-width:700px) and (max-width:850px){
 	.spot
 	{
-		width: 32.4vw;
+		width: 33.33%;
 	}
 		.spot1
 	{
-		width: 32.4vw;
+		width: 33.33%;
 	}
 }
 
