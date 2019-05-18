@@ -1409,8 +1409,8 @@ iframe {
 .naslovFilma
 {
 	font-size: 56px;
-	margin-top: 20px;
-	margin-bottom: 40px;
+	margin-top: 0;
+	margin-bottom: 20px;
 	float: right;
 	color: white;
 	display: block;
