@@ -956,7 +956,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-#prviRed
+#prviRed, #prviRed1
 {
 		margin-top: 50px;
 }
@@ -1068,7 +1068,7 @@ body{
 	width: 100%;
 
 	}
-	#prviRed
+	#prviRed, #prviRed1
 {
 		margin-top: 0;
 }
@@ -1108,7 +1108,7 @@ iframe {
 
 
 @media screen and (max-width:500px){
-#prviRed
+#prviRed, #prviRed1
 {
 		margin-top: 0;
 }
@@ -1537,10 +1537,7 @@ iframe {
 	{
 		height: 190px;
 	}
-	.spot1
-	{
-		height: 190px;
-	}
+
 	#prviRed
 	{
 		height: 190px;
@@ -1551,10 +1548,6 @@ iframe {
 
 @media screen  and (min-width:1900px){
 	.spot
-	{
-		height: 220px;
-	}
-	.spot1
 	{
 		height: 220px;
 	}
