@@ -1531,3 +1531,36 @@ iframe {
     margin-bottom: -80px;
 }
 }  
+
+@media screen  and (min-width:1400px){
+	.spot
+	{
+		height: 190px;
+	}
+	.spot1
+	{
+		height: 190px;
+	}
+	#prviRed
+	{
+		height: 190px;
+	}
+	
+}
+
+
+@media screen  and (min-width:1900px){
+	.spot
+	{
+		height: 220px;
+	}
+	.spot1
+	{
+		height: 220px;
+	}
+	#prviRed
+	{
+		height: 220px;
+	}
+	
+}
