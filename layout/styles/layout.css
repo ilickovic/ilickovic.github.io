@@ -1557,3 +1557,27 @@ iframe {
 	}
 	
 }
+
+@media screen and (min-width: 768px) and (max-width:1200px)
+{
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width:800px)
+{
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    position: fixed;
+	right: 30px;
+	top: 20px;
+}
+.dropdown-menu {
+    background-color: rgba(0,0,0,.5);
+}
+#el {
+    font-size: 14px;
+    color: wheat;
+}
+}
+
