@@ -393,7 +393,7 @@ table a, #comments a{background-color:inherit;}
 	#topbar div:last-child ul{margin:0;}
 
 	#header{text-align:center;}
-	#header #logo{margin:0 0 0 0;}
+	#header #logo{margin:0 0 0 0; width:34%; height:50px; position: absolute; z-index: 10;}
 
 	#introblocks > ul > li{margin-bottom:50px;}
 	#introblocks > ul > li:last-child{margin-bottom:0;}
@@ -621,7 +621,7 @@ body{
 
 .stefan
 {
-	width: 34%;
+	width: 100%;
 	display: inline-block;
 	float: left;
 	margin-top: 20px;
