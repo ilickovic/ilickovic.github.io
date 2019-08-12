@@ -1,13 +1,4 @@
 @charset "utf-8";
-/*
-Template Name: Brickary
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
-File: Layout CSS
-*/
-
 @import url("fontawesome-4.6.3.min.css");
 @import url("custom.flexslider.css");
 @import url("framework.css");
@@ -693,6 +684,7 @@ body{
 	padding: 10px 20px;
 }
 }
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: white;
     background: none;
@@ -754,9 +746,7 @@ body{
 @media screen and (max-width:1200px){
 .bio
 {
-
 	width: 70%;
-
 }
 
 .krasa
@@ -767,11 +757,10 @@ body{
 
 @media screen and (max-width:1000px){
 .bio
-{
-	
+{	
 	width: 80%;
 	padding-top: 15%;
-		padding-bottom: 25%;
+	padding-bottom: 25%;
 }
 
 .krasa
@@ -788,7 +777,7 @@ body{
 	
 	width: 80%;
 	padding-top: 18%;
-		padding-bottom: 30%;
+	padding-bottom: 30%;
 }
 
 .krasa
@@ -809,72 +798,56 @@ body{
 	width: 90%;
 	padding-top: 20%;
 }
-
-
 }
 
 
 @media screen and (max-width:700px){
 .bio
-{
-	
+{	
 	width: 100%;
 	padding-top: 25%;
 	padding-bottom: 30%;
 	font-size: 10px;
 	padding-left: 15%;
 	padding-right: 15%;
-	background-image: url("../../images/papir3.png");
-	
+	background-image: url("../../images/papir3.png");	
 }
-
-
 }
 
 @media screen and (max-width:480px){
 .bio
 {
-	
 	width: 100%;
 	padding-top: 23%;
 	padding-bottom: 30%;
 	font-size: 10px;
-		padding-left: 17%;
+	padding-left: 17%;
 	padding-right: 17%;
-	
 }
-
-
 }
 
 @media screen and (max-width:410px){
 .bio
-{
-	
+{	
 	width: 100%;
 	padding-top: 26%;
 	padding-bottom: 33%;
 	font-size: 10px;
-		padding-left: 15%;
-	padding-right: 15%;
-	
+	padding-left: 15%;
+	padding-right: 15%;	
 }
-
-
 }
 
 
 @media screen and (max-width:460px){
 .bio
-{
-	
+{	
 	width: 100%;
 	padding-top: 35%;
 	padding-bottom: 40%;
 	font-size: 10px;
-		padding-left: 16%;
-	padding-right: 16%;
-	
+	padding-left: 16%;
+	padding-right: 16%;	
 	background-image: url("../../images/papir4.png");
 }
 
@@ -888,14 +861,13 @@ body{
 {
 	width: 50px;
 }
-
-
 }
 
 #m
 {
 	display: none;
 }
+
 @media screen and (max-width:800px){
 	#d
 	{
@@ -975,14 +947,12 @@ body{
 
 .spot
 {	
-	/* width: 32.9vw; */
 	width: 33.3%;
 	margin: 0;
 	margin-bottom: -6px;
 }
 .spot1
 {	
-	/* width: 32.9vw; */
 	width: 33.3%;
 	margin: 0;
 	margin-bottom: -6px;
@@ -1058,17 +1028,17 @@ body{
 }
 
 @media screen and (min-width:500px) and (max-width:700px){
-	.spot
-	{	
+.spot
+{	
 	width: 100%;
 	height: 40vw;
-	}
-		.spot1
-	{	
+}
+.spot1
+{	
 	width: 100%;
-
-	}
-	#prviRed, #prviRed1
+}
+	
+#prviRed, #prviRed1
 {
 		margin-top: 0;
 }
@@ -1078,7 +1048,6 @@ body{
 	margin-bottom: 20px;
 	font-size: 20px;
 }
-
 }
 
 @media screen and (max-width:500px){
@@ -1317,8 +1286,6 @@ iframe {
   visibility: hidden;
   opacity: 0;
   font-size: 18px;
-
-  /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
 }
 

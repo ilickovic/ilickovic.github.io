@@ -1,532 +1,186 @@
 <!DOCTYPE html>
-<!--
-Template Name: Brickary
-Author: <a href="http://www.os-templates.com/">OS Templates</a>
-Author URI: http://www.os-templates.com/
-Licence: Free to use under our free template licence terms
-Licence URI: http://www.os-templates.com/template-terms
--->
+
 <html>
 
-<head>
-<title>Stefan Krasić</title>
- <link rel="shortcut icon" type="image/x-icon" href="images/ikonica.png" />
-<meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css?family=Overlock" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Cabin|Dosis|Encode+Sans+Condensed|Quicksand|Signika" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=EB+Garamond|IBM+Plex+Serif|Ledger|Lora|Noto+Serif|Old+Standard+TT|Playfair+Display|Podkova" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Neucha" rel="stylesheet">
+	<head>
+		<title>Stefan Krasić</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/ikonica.png" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+		<link rel="stylesheet" href="SlickNav/slicknav.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	
+	<body style="font-family: 'Lobster', cursive;">
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="stylesheet" href="SlickNav/slicknav.css" />
+		<div class="background-wrap">
+			<img src="images/Background.jpg" style="max-width: none; min-width: 100%; min-height: 100%;" />
+		</div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
-<body style="font-family: 'Lobster', cursive;">
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
+		<div class="bgded overlay"> 
+		  <div class="wrapper row1">
+			<header id="header" class="hoc clear"> 
+			  <div id="logo" class="fl_left">
+				<h1><a href="index.html"><img src="images/sineast.png" class="stefan "style="top: 0"/></a></h1>
+			  </div>
+			  <img src="images/brci.png" class="brci"/>
+		  
+			  <nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				  </button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav">
+					<li><a href="index.html"  id="el">Почетна</a></li>
+					<li class="dropdown">
+					  <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="el" style="color: white">Портфолио<span class="caret"></span></a>
+					  <ul class="dropdown-menu">
+						<li><a href="filmovi.html" id="el">Филмови</a></li>
+						<li><a href="spotovi.html" id="el">Спотови</a></li>
+						<li><a href="reklame.html" id="el">Рекламе и промо филмови</a></li>
+						<li class="active"><a href="skecevi.html" id="el">Скечеви</a></li>
+						<li><a href="intervjui.html" id="el">Интервјуи</a></li>
+					  </ul>
+					</li>
+					<li><a href="biografija.html" id="el">Биографија</a></li>
+				  </ul>
+				</div>
+			  </div>
+			 </nav>	
+			 
+			 <a class="language" href="sketches.html" > <img src="images/british.png" /> </a>
+			 
+			</header>
+		  </div>
+		</div>
 
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- Top Background Image Wrapper -->
+		<div class="kategorija">Скечеви</div>
+		
+		<div class="linkovi"></div>
+		  
+		<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 
-<div class="background-wrap">
-	<img src="images/Background.jpg" style="max-width: none; min-width: 100%; min-height: 100%;/>
-<div class="video-responsive">
-	<canvas class="canvas"></canvas>  
-</div>
-</div>
+	</body>
+	
+	<footer style="position: fixed; bottom: 0; width: 100%">
+		<div class="wrapper bgded overlay">
+			<div class="w3-container">
+			  <div class="w3-center w3-animate-bottom">
+				  <div class="wrapper row5">
+					  <div id="copyright" class="hoc clear" style="background-color: black"> 
+						<p class="foot" style="color: #B8B8B8;">&copy; 2018 Стефан Красић - Сва права задржана - Сајт креирала <img class="ines" src="images/ines.png"/></p>
+					  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</footer>
+	
+<!-- SCRIPTS -->
 
-<div class="bgded overlay"> 
+<script>
+	var prvi = ["https://www.youtube.com/embed/UPY4w4t53jE",
+	"https://www.youtube.com/embed/CHGsn5ZUi-c",
+	"https://www.youtube.com/embed/-NnDRtdaqVU"
+	]
+	
+	var srednji = ["https://www.youtube.com/embed/CW87ptdSO-o",
+	"https://www.youtube.com/embed/_BrCr_zDzt4",
+	"https://www.youtube.com/embed/m_MIEk9uk7g",
+	"https://www.youtube.com/embed/Zt3MeF6zpsE",
+	"https://www.youtube.com/embed/O0bYqEzhqr8",
+	"https://www.youtube.com/embed/HLjzz6KOXBQ",
+	"https://www.youtube.com/embed/gROxEXyAB64",
+	"https://www.youtube.com/embed/xuufajJzcJI",
+	"https://www.youtube.com/embed/ecf_RY3p3mE",
+	"https://www.youtube.com/embed/di8Zi6ykaoI",
+	"https://www.youtube.com/embed/J7RUWAEixAI",
+	"https://www.youtube.com/embed/RA4jYZ2vq1I",
+	"https://www.youtube.com/embed/IAJN0cJ8I5c",
+	"https://www.youtube.com/embed/M4qxMeN4JGU",
+	"https://www.youtube.com/embed/7376EtCq4n8",
+	"https://www.youtube.com/embed/df1CU_XhemY",
+	"https://www.youtube.com/embed/2Z-rUpZeID4",
+	"https://www.youtube.com/embed/Y-Z58tv6KW8",
+	"https://www.youtube.com/embed/iTJw5DFuYIU",
+	"https://www.youtube.com/embed/-87C1YmHum4",
+	"https://www.youtube.com/embed/sptpY5q2ybI",
+	"https://www.youtube.com/embed/VkZw0jOG_no",
+	"https://www.youtube.com/embed/up-wGMfi01w",
+	"https://www.youtube.com/embed/-vR6GfVQOH4",
+	"https://www.youtube.com/embed/7IHn5URnoKc",
+	"https://www.youtube.com/embed/5yMyhLjDV_Q",
+	"https://www.youtube.com/embed/ad1U7k755OI",
+	"https://www.youtube.com/embed/mosa4W21xE0",
+	"https://www.youtube.com/embed/qSHCMtM1IEk",
+	"https://www.youtube.com/embed/ZzVdrZFDK8w",
+	"https://www.youtube.com/embed/Y0VjfVF6TmY",
+	"https://www.youtube.com/embed/65HGudjBekw",
+	"https://www.youtube.com/embed/b01RoAMrbl4",
+	"https://www.youtube.com/embed/Ds-ybkSSSmI",
+	"https://www.youtube.com/embed/-CztzBlBlSI",
+	"https://www.youtube.com/embed/a5EfGb5ip3c",
+	"https://www.youtube.com/embed/s2asv1ign58",
+	"https://www.youtube.com/embed/x1eCfxgNGGY",
+	"https://www.youtube.com/embed/OC9JG6n5ijo"
+	]
+	
+	var zadnji = ["https://www.youtube.com/embed/YRbv1C5CF9Q"]
+	
+	$(prvi).each(function(i, e) {	
+		$(".linkovi").append( '<div class="spot" id="prviRed">' +
+		' <iframe width="100%" height="100%" src="' + e +  '" allowfullscreen="allowfullscreen"' +
+		   '  mozallowfullscreen="mozallowfullscreen"  ' +
+		   '  msallowfullscreen="msallowfullscreen"  ' +
+		   '  oallowfullscreen="oallowfullscreen"  ' +
+		   '  webkitallowfullscreen="webkitallowfullscreen"> ' +
+		' </iframe> ' +
+	  ' </div> ')})
+	  
+	$(srednji).each(function(i, e) {	
+		$(".linkovi").append( '<div class="spot">' +
+		' <iframe width="100%" height="100%" src="' + e +  '" allowfullscreen="allowfullscreen"' +
+		   '  mozallowfullscreen="mozallowfullscreen"  ' +
+		   '  msallowfullscreen="msallowfullscreen"  ' +
+		   '  oallowfullscreen="oallowfullscreen"  ' +
+		   '  webkitallowfullscreen="webkitallowfullscreen"> ' +
+		' </iframe> ' +
+	  ' </div> ')})  
 
-  <!-- ################################################################################################ -->
-  <div class="wrapper row1">
-    <header id="header" class="hoc clear"> 
-      <!-- ################################################################################################ -->
-      <div id="logo" class="fl_left">
-        <h1><a href="index.html"><img src="images/sineast.png" class="stefan "style="top: 0"/></a></h1>
-
-      </div>
-	  <img src="images/brci.png" class="brci"/>
-  
-  <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html"  id="el">Почетна</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="el" style="color: white">Портфолио<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="filmovi.html" id="el">Филмови</a></li>
-            <li><a href="spotovi.html" id="el">Спотови</a></li>
-            <li><a href="reklame.html" id="el">Рекламе и промо филмови</a></li>
-			<li class="active"><a href="skecevi.html" id="el">Скечеви</a></li>
-            <li><a href="intervjui.html" id="el">Интервјуи</a></li>
-          </ul>
-        </li>
-        <li><a href="biografija.html" id="el">Биографија</a></li>
-      </ul>
-
-    </div>
-  </div>
-</nav>
-<a class="language" href="sketches.html" > <img src="images/british.png" /> </a>
-      <!-- ################################################################################################ -->
-    </header>
-  </div>
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-  <!-- ################################################################################################ -->
-
-  <!-- ################################################################################################ -->
-</div>
-
-<div class="kategorija">Скечеви</div>
-
-  <div class="spot" id="prviRed">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/UPY4w4t53jE" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot" id="prviRed">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/CHGsn5ZUi-c" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot" id="prviRed">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-NnDRtdaqVU" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/CW87ptdSO-o" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_BrCr_zDzt4" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/m_MIEk9uk7g" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Zt3MeF6zpsE" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/O0bYqEzhqr8" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/HLjzz6KOXBQ" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
- 
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/gROxEXyAB64" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xuufajJzcJI" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ecf_RY3p3mE" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/di8Zi6ykaoI" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/J7RUWAEixAI" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/RA4jYZ2vq1I" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/IAJN0cJ8I5c" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/M4qxMeN4JGU" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/7376EtCq4n8" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/df1CU_XhemY" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/2Z-rUpZeID4" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Y-Z58tv6KW8" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>  
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/iTJw5DFuYIU" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-87C1YmHum4" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/sptpY5q2ybI" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/VkZw0jOG_no" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/up-wGMfi01w" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-vR6GfVQOH4" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/7IHn5URnoKc" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/5yMyhLjDV_Q" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ad1U7k755OI" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/mosa4W21xE0" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/qSHCMtM1IEk" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZzVdrZFDK8w" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Y0VjfVF6TmY" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div> 
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/65HGudjBekw" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/b01RoAMrbl4" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ds-ybkSSSmI" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-CztzBlBlSI" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/a5EfGb5ip3c" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/s2asv1ign58" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/x1eCfxgNGGY" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/OC9JG6n5ijo" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  <div class="spot" style="margin-bottom: 30px;">
-	<iframe width="100%" height="100%" src="https://www.youtube.com/embed/YRbv1C5CF9Q" allowfullscreen="allowfullscreen"
-        mozallowfullscreen="mozallowfullscreen" 
-        msallowfullscreen="msallowfullscreen" 
-        oallowfullscreen="oallowfullscreen" 
-        webkitallowfullscreen="webkitallowfullscreen">
-	</iframe>
-  </div>
-  
-  
-</body>
-<footer  style="position: fixed; bottom: 0; width: 100%">
-<div class="wrapper bgded overlay">
-<div class="w3-container">
-  <div class="w3-center w3-animate-bottom">
-  
-
-  <div class="wrapper row5">
-  <div id="copyright" class="hoc clear" style="background-color: black"> 
-    <!-- ################################################################################################ -->
-    <p class="foot" style="color: #B8B8B8;">&copy; 2018 Стефан Красић - Сва права задржана - Сајт креирала <img class="ines" src="images/ines2.png"/></p>
-    <!-- ################################################################################################ -->
-  </div>
-</div>
-  </div>
-</div>
-
-</div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-
-</footer>
-<!-- JAVASCRIPTS -->
-
+	$(zadnji).each(function(i, e) {	
+		$(".linkovi").append( '<div class="spot" style="margin-bottom: 30px;">' +
+		' <iframe width="100%" height="100%" src="' + e +  '" allowfullscreen="allowfullscreen"' +
+		   '  mozallowfullscreen="mozallowfullscreen"  ' +
+		   '  msallowfullscreen="msallowfullscreen"  ' +
+		   '  oallowfullscreen="oallowfullscreen"  ' +
+		   '  webkitallowfullscreen="webkitallowfullscreen"> ' +
+		' </iframe> ' +
+	  ' </div> ')})  
+	
+</script>
 
 <script>
 	$('#menu2').slicknav({
 	label: '',
 	duration: 1000,
-	easingOpen: "easeOutBounce", //available with jQuery UI
+	easingOpen: "easeOutBounce",
 	prependTo:'#demo2'
 });
 </script>
+
 <script src="SlickNav/jquery.slicknav.min.js"></script>
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
-
 <script src="layout/scripts/jquery.flexslider-min.js"></script>
-
-
 
 </html>
