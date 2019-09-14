@@ -1449,6 +1449,7 @@ iframe {
 .ekipa
 {
 	width: 100%;
+	display: block;
 }
 .ikoniceFilm
 {
