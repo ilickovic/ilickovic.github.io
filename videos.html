@@ -90,21 +90,11 @@
 <!-- SCRIPTS -->
 
 <script>
-	var prvi = ["https://www.youtube.com/embed/wtTL4b7VX-g",
-	"https://www.youtube.com/embed/lugcCgobAcc",
-	"https://www.youtube.com/embed/OLnO2JBhLmE"
+	var prvi = ["https://www.youtube.com/embed/videoseries?si=rcCaB-XmMkfAyD2l&amp;list=PLXnf01NcUoloi-wfGeVi0T5zSyAjkzYXe"
 	]
-	
-	var srednji = ["https://www.youtube.com/embed/OejM9xVGQZg",
-	"https://www.youtube.com/embed/Wx8sYTZPoAM",
-	"https://www.youtube.com/embed/joasynfS92E",
-	"https://www.youtube.com/embed/N9Gh5qBz_9Y",	
-	]
-	
-	var zadnji = ["https://www.youtube.com/embed/PNaOj866ook"]
 	
 	$(prvi).each(function(i, e) {	
-		$(".linkovi").append( '<div class="spot" id="prviRed">' +
+		$(".linkovi").append( '<div class="plejlista" id="prviRedPlejlista">' +
 		' <iframe width="100%" height="100%" src="' + e +  '" allowfullscreen="allowfullscreen"' +
 		   '  mozallowfullscreen="mozallowfullscreen"  ' +
 		   '  msallowfullscreen="msallowfullscreen"  ' +
@@ -112,26 +102,6 @@
 		   '  webkitallowfullscreen="webkitallowfullscreen"> ' +
 		' </iframe> ' +
 	  ' </div> ')})
-	  
-	$(srednji).each(function(i, e) {	
-		$(".linkovi").append( '<div class="spot">' +
-		' <iframe width="100%" height="100%" src="' + e +  '" allowfullscreen="allowfullscreen"' +
-		   '  mozallowfullscreen="mozallowfullscreen"  ' +
-		   '  msallowfullscreen="msallowfullscreen"  ' +
-		   '  oallowfullscreen="oallowfullscreen"  ' +
-		   '  webkitallowfullscreen="webkitallowfullscreen"> ' +
-		' </iframe> ' +
-	  ' </div> ')})  
-
-	$(zadnji).each(function(i, e) {	
-		$(".linkovi").append( '<div class="spot" style="margin-bottom: 30px;">' +
-		' <iframe width="100%" height="100%" src="' + e +  '" allowfullscreen="allowfullscreen"' +
-		   '  mozallowfullscreen="mozallowfullscreen"  ' +
-		   '  msallowfullscreen="msallowfullscreen"  ' +
-		   '  oallowfullscreen="oallowfullscreen"  ' +
-		   '  webkitallowfullscreen="webkitallowfullscreen"> ' +
-		' </iframe> ' +
-	  ' </div> ')})  
 	
 </script>
 

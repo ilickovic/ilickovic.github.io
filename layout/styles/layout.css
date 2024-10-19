@@ -907,7 +907,15 @@ body{
 	font-size: 12px;
 }
 
-
+.plejlista
+{
+	margin: 50px;
+	margin-left: 2%;
+	margin-right: 2%;
+	float: left;
+	width: 96%;
+	height: 500px;
+}
 
 .kategorija
 {
@@ -928,7 +936,7 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-#prviRed, #prviRed1
+#prviRed, #prviRed1, #prviRedPlejlista
 {
 		margin-top: 50px;
 }
@@ -938,7 +946,11 @@ body{
 	{
 		margin-left: 10px;
 	}
-		.spot1
+	.spot1
+	{
+		margin-left: 10px;
+	}
+	.plejlista
 	{
 		margin-left: 10px;
 	}
@@ -954,6 +966,12 @@ body{
 .spot1
 {	
 	width: 33.3%;
+	margin: 0;
+	margin-bottom: -6px;
+}
+.plejlista
+{	
+	width: 100%;
 	margin: 0;
 	margin-bottom: -6px;
 }
@@ -977,9 +995,13 @@ body{
 	{
 		width: 33.33%
 	}
-		.spot1
+	.spot1
 	{
 		width: 33.33%;
+	}
+	.plejlista
+	{
+		width: 100%;
 	}
 }
 
@@ -988,9 +1010,13 @@ body{
 	{
 		width: 33.33%;
 	}
-		.spot1
+	.spot1
 	{
 		width: 33.33%;
+	}
+	.plejlista
+	{
+		width: 100%;
 	}
 }
 
@@ -999,9 +1025,13 @@ body{
 	{
 		width: 33.33%;
 	}
-		.spot1
+	.spot1
 	{
 		width: 33.33%;
+	}
+	.plejlista
+	{
+		width: 100%;
 	}
 }
 
@@ -1010,9 +1040,13 @@ body{
 	{
 		width: 33.33%;
 	}
-		.spot1
+	.spot1
 	{
 		width: 33.33%;
+	}
+	.plejlista
+	{
+		width: 100%;
 	}
 }
 
@@ -1021,9 +1055,13 @@ body{
 	{
 		width: 33.33%;
 	}
-		.spot1
+	.spot1
 	{
 		width: 33.33%;
+	}
+	.plejlista
+	{
+		width: 100%;
 	}
 }
 
@@ -1037,8 +1075,13 @@ body{
 {	
 	width: 100%;
 }
+.plejlista
+{	
+	width: 100%;
+	height: 80vw;
+}
 	
-#prviRed, #prviRed1
+#prviRed, #prviRed1, #prviRedPlejlista
 {
 		margin-top: 0;
 }
@@ -1060,6 +1103,11 @@ body{
 {	
 	width: 100%;
 }
+.plejlista
+{	
+	width: 100%;
+	height: 80vw;
+}
 }
 
 
@@ -1077,7 +1125,7 @@ iframe {
 
 
 @media screen and (max-width:500px){
-#prviRed, #prviRed1
+#prviRed, #prviRed1, #prviRedPlejlista
 {
 		margin-top: 0;
 }
